@@ -33,13 +33,13 @@ $text            = ! empty( $single_listing['floor_plan_section_label'] ) ? $sin
 		<?php if($text){ ?>
 			<div class="accordion-header" id="clproperty_listing_floor_plan_heading">
 				<h3 class="mb-0">
-					<button class="btn" data-toggle="collapse" data-target="#clproperty_listing_floor_plan" aria-expanded="false" aria-controls="clproperty_listing_floor_plan">
+					<button class="btn" data-toggle="collapse" data-target="#clproperty_listing_floor_plan" aria-expanded="true" aria-controls="clproperty_listing_floor_plan">
 					<?php echo esc_html($text); ?>
 					</button>
 				</h3>
 			</div>
 		<?php } ?>
-		<div id="clproperty_listing_floor_plan" class="collapse" data-parent="#clproperty_listing_floor_plan">
+		<div id="clproperty_listing_floor_plan" class="collapse show" data-parent="#clproperty_listing_floor_plan">
 			<div class="accordion" id="accordionExample">
 				<?php
 				$count = 0;

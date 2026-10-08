@@ -31,12 +31,12 @@ $comment_class=have_comments() ? 'has-comment':'no-comments';
 <div id="reviews" class="clproperty-accordion-item rtcl-sl-section <?php echo esc_attr($comment_class); ?> single-listing-reviews-main-wrapper">
 	<div class="accordion-header" id="clproperty_listing_review_heading">
 		<h3 class="mb-0">
-			<button class="btn collapsed" data-toggle="collapse" data-target="#review-form-wrapper" aria-expanded="false" aria-controls="review-form-wrapper">
+			<button class="btn" data-toggle="collapse" data-target="#review-form-wrapper" aria-expanded="true" aria-controls="review-form-wrapper">
 			    <?php esc_html_e( 'Leave Feedback About This', 'clproperty' ); ?>
 			</button>
 		</h3>
     </div>
-    <div id="review-form-wrapper" class="collapse" data-parent="#review-form-wrapper">
+    <div id="review-form-wrapper" class="collapse show" data-parent="#review-form-wrapper">
 		<div class="clproperty-accordion-content">
 			<div id="review-form">
 				<?php if ( have_comments() ) :

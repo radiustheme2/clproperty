@@ -9,6 +9,7 @@
 
 use Rtcl\Helpers\Functions;
 use RtclStore\Models\Store;
+use radiustheme\ClProperty\Helper;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
@@ -66,27 +67,27 @@ $store    = new Store( $store_id );
 			<div class="rtcl-agent-meta">
 				<?php if ( $phone ): ?>
                     <div class="agent-meta item-phone">
-						<i class="icon-rt-icon-phone-line2"></i>
+						<?php echo Helper::get_line_icon( 'phone' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?>
 						<span><?php esc_html_e( 'Phone', 'clproperty' ); ?>:</span>
 						<a href="tel:<?php echo esc_attr( $phone ); ?>"><?php echo esc_html( $phone ); ?></a>
 					</div>
 				<?php endif; ?>
 				<?php if ( $whatsApp ): ?>
                     <div class="agent-meta item-whatsapp">
-						<i class="icon-rt-icon-whatsapp-solid"></i>
+						<?php echo Helper::get_line_icon( 'whatsapp' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?>
 						<span><?php esc_html_e( 'What\'s App', 'clproperty' ); ?>:</span>
 						<a target="_blank"
 						   href="https://wa.me/<?php echo esc_attr( $whatsApp ); ?>"><?php echo esc_html( $whatsApp ); ?></a>
 					</div>
 				<?php endif; ?>
                 <div class="agent-meta item-contact">
-					<i class="icon-rt-icon-email"></i>
+					<?php echo Helper::get_line_icon( 'email' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?>
 					<span><?php esc_html_e( 'Email', 'clproperty' ); ?>:</span>
 					<a href="mailto:<?php echo esc_attr( $author->user_email ); ?>"><?php echo esc_html( $author->user_email ); ?></a>
 				</div>
 				<?php if ( $website ): ?>
                     <div class="agent-meta item-whatsapp">
-						<i class="icon-rt-icon-web"></i>
+						<?php echo Helper::get_line_icon( 'web' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?>
 						<span><?php esc_html_e( 'Website', 'clproperty' ); ?>:</span>
 						<a target="_blank"
 						   href="<?php echo esc_url( $website ); ?>"><?php echo esc_url( $website ); ?></a>

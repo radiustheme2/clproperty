@@ -31,12 +31,16 @@ if ( $panorama ) { ?>
 		<?php if ( $text ){ ?>
             <div class="accordion-header" id="clproperty_listing_panorama_heading">
                 <h3 class="mb-0">
-                    <button class="btn collapsed" data-toggle="collapse" data-target="#panorama" aria-expanded="false" aria-controls="panorama">
+                    <button class="btn" data-toggle="collapse" data-target="#clproperty_listing_panorama" aria-expanded="true" aria-controls="clproperty_listing_panorama">
                         <?php echo esc_html( $text ); ?>
                     </button>
                 </h3>
         </div>
 		<?php } ?>
-        <div id="panorama" class="collapse"></div>
+        <div id="clproperty_listing_panorama" class="collapse accordion-collapse show">
+            <div class="clproperty-accordion-content">
+                <div id="panorama"></div>
+            </div>
+        </div>
     </div>
 <?php } ?>

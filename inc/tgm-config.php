@@ -80,9 +80,9 @@ class TGM_Config {
 			[
 				'name'     => 'Classified Listing Pro',
 				'slug'     => 'classified-listing-pro',
-				'source'   => 'classified-listing-pro.4.2.5.zip',
+				'source'   => 'classified-listing-pro.4.2.3.zip',
 				'required' => true,
-				'version'  => '4.2.5',
+				'version'  => '4.2.3',
 			],
 			[
 				'name'     => 'Classified Listing Store',

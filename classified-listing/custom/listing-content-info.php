@@ -99,26 +99,27 @@ $user_login_class=is_user_logged_in() ? 'has-chat':'no-chat';
                                     ];
                             ?>
                             <div class="item-number phone reveal-phone<?php echo esc_attr($mobileClass); ?>" data-options="<?php echo esc_attr( wp_json_encode( $phone_options ) ); ?>">
-                                <div class='numbers'><i class="icon-rt-icon-phone-line2"></i><?php echo esc_html($phone_options['safe_phone']); ?></div>
+                                <?php echo Helper::get_line_icon( 'phone' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?>
+                                <div class='numbers'><?php echo esc_html($phone_options['safe_phone']); ?></div>
                                 <small class='text-muted'><?php esc_html_e("(Show)","clproperty") ?></small>
                             </div>
                         <?php endif; ?>
                         <?php if ( $whatsapp && Functions::check_visibility( $listing->get_author_id(), 'whatsapp' ) ) : ?>
                             <div class="item-number  whatsapp">
                                 <a target="_blank" href="https://api.whatsapp.com/send?phone=<?php echo esc_attr( $whatsapp ); ?>&text=<?php echo esc_html( get_the_title() );?>">
-                                    <i class="icon-rt-icon-whatsapp-solid"></i> <?php echo esc_html( $whatsapp ); ?>
+                                    <?php echo Helper::get_line_icon( 'whatsapp' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?><span class="info-text"><?php echo esc_html( $whatsapp ); ?></span>
                                 </a>
                             </div>
                         <?php endif; ?>
 
                         <?php if ( $email && Functions::check_visibility( $listing->get_author_id(), 'email' ) ) : ?>
                             <div class="agency-email listing-mail">
-                                <a href="mailto:<?php echo esc_attr( $email ); ?>"><i class="icon-rt-icon-email"></i><?php echo esc_html( $email ); ?></a>
+                                <a href="mailto:<?php echo esc_attr( $email ); ?>"><?php echo Helper::get_line_icon( 'email' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?><span class="info-text"><?php echo wp_kses( str_replace( '@', '<wbr>@', esc_html( $email ) ), [ 'wbr' => [] ] ); ?></span></a>
                             </div>
                         <?php endif; ?>
                         <?php if($website): ?>
                             <div class="agency-website listing-website">
-                                <a href="<?php echo esc_url( $website ); ?>"><i class="icon-rt-icon-web"></i><?php echo esc_html__('Visit Website','clproperty'); ?></a>
+                                <a href="<?php echo esc_url( $website ); ?>"><?php echo Helper::get_line_icon( 'web' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?><span class="info-text"><?php echo esc_html__('Visit Website','clproperty'); ?></span></a>
                             </div>
                         <?php endif; ?>
                         <?php if ( ! empty( $rating_count && RDTheme::$options['show_owner_store_rating']) ): ?>
@@ -155,7 +156,7 @@ $user_login_class=is_user_logged_in() ? 'has-chat':'no-chat';
                             <div class='<?php echo esc_attr( $is_chat ); ?>'>
                                 <a class="<?php echo esc_attr( implode( ' ', $chat_btn_class ) ) ?>"
                                 href="<?php echo esc_url( $chat_url ) ?>" data-listing_id="<?php the_ID() ?>">
-                                    <i class="fas fa-comment"></i><?php echo esc_html($chat_label ); ?>
+                                    <?php echo Helper::get_line_icon( 'chat' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static SVG markup ?><?php echo esc_html($chat_label ); ?>
                                     <span class="rtcl-chat-unread-count"></span>
                                 </a>
                             </div>

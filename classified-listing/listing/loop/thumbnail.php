@@ -73,6 +73,14 @@ $listing_type = Listing_Functions::get_listing_type( $listing );
                     </span>
                 <?php endif; ?>
             </div>
+		<?php } else {
+			foreach ( $images as $index => $image ):
+				echo wp_get_attachment_image( $image->ID, 'rtcl-thumbnail' );
+				break;
+			endforeach;
+		}
+		if ( 'list' == $view ) {
+            ?>
             <div class="item-block_listing-action">
                 <?php echo wp_kses_post( Listing_Functions::get_favourites_link( $listing->get_id() ) ); ?>
                 <?php if ( Fns::is_enable_compare() ) {
@@ -89,12 +97,7 @@ $listing_type = Listing_Functions::get_listing_type( $listing );
                     </a>
                 <?php } ?>
             </div>
-		<?php } else {
-			foreach ( $images as $index => $image ):
-				echo wp_get_attachment_image( $image->ID, 'rtcl-thumbnail' );
-				break;
-			endforeach;
-		}
+		<?php }
 		if ( $listing && Fns::is_enable_mark_as_sold() && Fns::is_mark_as_sold( $listing->get_id() ) ) {
 			echo '<span class="rtcl-sold-out">' . esc_html( apply_filters( 'rtcl_sold_out_banner_text', esc_html__( "Sold Out", 'clproperty' ) ) ) . '</span>';
 		}

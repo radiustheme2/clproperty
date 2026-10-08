@@ -12,11 +12,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
-if ( ! defined( 'RT_DEBUG' ) || ! constant( 'RT_DEBUG' ) ) {
-	Helper::requires( 'lib/updater/theme-updater.php' );
-	Helper::requires( 'lib/updater/lc-utility.php' );
-	Helper::requires( 'lib/updater/lc-helper.php' );
-}
+// if ( ! defined( 'RT_DEBUG' ) || ! constant( 'RT_DEBUG' ) ) {
+// 	Helper::requires( 'lib/updater/theme-updater.php' );
+// 	Helper::requires( 'lib/updater/lc-utility.php' );
+// 	Helper::requires( 'lib/updater/lc-helper.php' );
+// }
 Helper::requires( 'lib/class-tgm-plugin-activation.php' );
 
 Helper::requires( 'class-clproperty-walker-category.php' );

@@ -806,6 +806,8 @@
                 width: '100%',
             });
         }
+        // Hero search loader
+        $('.banner-search-wrapper.rt-search-loading').removeClass('rt-search-loading');
     }
 
     function rdtheme_content_load_scripts() {

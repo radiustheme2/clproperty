@@ -50,13 +50,13 @@ $hide_listing_map   = get_post_meta( get_the_ID(), 'hide_map', true );
             <?php if ( RDTheme::$options['overview_text'] ) { ?>
                 <div class="accordion-header" id="clproperty_listing_cfg_heading">
                     <h3 class="mb-0">
-                        <button class="btn collapsed" data-toggle="collapse" data-target="#clproperty_listing_cfg" aria-expanded="false" aria-controls="clproperty_listing_cfg">
+                        <button class="btn" data-toggle="collapse" data-target="#clproperty_listing_cfg" aria-expanded="true" aria-controls="clproperty_listing_cfg">
                             <?php echo esc_html( RDTheme::$options['overview_text'] ); ?>
                         </button>
                     </h3>
                 </div>
             <?php } ?>
-            <div id="clproperty_listing_cfg" class="collapse accordion-collapse">
+            <div id="clproperty_listing_cfg" class="collapse accordion-collapse show">
                 <div class="clproperty-accordion-content">
                     <?php Helper::get_custom_listing_template( 'cfg-amenities' ); ?>
                 </div>
@@ -69,13 +69,13 @@ $hide_listing_map   = get_post_meta( get_the_ID(), 'hide_map', true );
             <?php if ( RDTheme::$options['feature_text'] ) { ?>
                 <div class="accordion-header" id="clproperty_listing_features_heading">
                     <h3 class="mb-0">
-                        <button class="btn collapsed" data-toggle="collapse" data-target="#clproperty_listing_features" aria-expanded="false" aria-controls="clproperty_listing_features">
+                        <button class="btn" data-toggle="collapse" data-target="#clproperty_listing_features" aria-expanded="true" aria-controls="clproperty_listing_features">
                             <?php echo esc_html( RDTheme::$options['feature_text'] ); ?>
                         </button>
                     </h3>
                 </div>
             <?php } ?>
-            <div id="clproperty_listing_features" class="collapse accordion-collapse">
+            <div id="clproperty_listing_features" class="collapse accordion-collapse show">
                 <div class="clproperty-accordion-content">
                     <?php $listing->the_custom_fields(); ?>
                 </div>
@@ -92,12 +92,12 @@ $hide_listing_map   = get_post_meta( get_the_ID(), 'hide_map', true );
         <div class="clproperty-accordion-item">
             <div class="accordion-header" id="clproperty_listing_video_heading">
                 <h3 class="mb-0">
-                    <button class="btn collapsed accordion-collapse" data-toggle="collapse" data-target="#clproperty_listing_video" aria-expanded="false" aria-controls="clproperty_listing_video">
+                    <button class="btn accordion-collapse" data-toggle="collapse" data-target="#clproperty_listing_video" aria-expanded="true" aria-controls="clproperty_listing_video">
                     <?php esc_html_e( 'Property Video', 'clproperty' ); ?>
                     </button>
                 </h3>
             </div>
-            <div id="clproperty_listing_video" class="collapse accordion-collapse">
+            <div id="clproperty_listing_video" class="collapse accordion-collapse show">
                 <div class="clproperty-accordion-content">
                     <?php $listing->the_thumbnail( 'rtcl-gallery' ); ?>
                     <div class="video-icon">
@@ -126,7 +126,7 @@ $hide_listing_map   = get_post_meta( get_the_ID(), 'hide_map', true );
     <div class="clproperty-accordion-item">
         <div class="accordion-header" id="clproperty_listing_map_heading">
             <h3 class="mb-0">
-                <button class="btn collapsed" data-toggle="collapse" data-target="#clproperty_listing_map" aria-expanded="false" aria-controls="clproperty_listing_map">
+                <button class="btn" data-toggle="collapse" data-target="#clproperty_listing_map" aria-expanded="true" aria-controls="clproperty_listing_map">
                     <?php esc_html_e( 'Map Location', 'clproperty' ); ?>
                 </button>
             </h3>

@@ -28,12 +28,12 @@ $location   = implode( ', ', $listing->user_contact_location_at_single() );
 	<div class="clproperty-accordion-item section_yelp_nearby_places">
 		<div class="accordion-header" id="clproperty_listing_yelp_heading">
 			<h3 class="mb-0">
-				<button class="btn collapsed" data-toggle="collapse" data-target="#clproperty_listing_yelp" aria-expanded="false" aria-controls="clproperty_listing_yelp">
+				<button class="btn" data-toggle="collapse" data-target="#clproperty_listing_yelp" aria-expanded="true" aria-controls="clproperty_listing_yelp">
 				<?php esc_html_e( 'Yelp Nearby Places', 'clproperty' ); ?>
 				</button>
 			</h3>
 		</div>
-		<div id="clproperty_listing_yelp" class="collapse">
+		<div id="clproperty_listing_yelp" class="collapse show">
 			<?php
 			if ( ! empty( $categories ) ){ ?>
 				<div class="clproperty-accordion-content">

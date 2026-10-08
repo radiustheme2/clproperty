@@ -71,6 +71,7 @@ class Listing_Functions {
 
 		add_filter( 'rtcl_single_listing_settings_options', [ __CLASS__, 'single_listing_mortgage_option' ] );
 		add_filter( 'rtcl_single_listing_settings_options', [ __CLASS__, 'single_listing_printer_button_option' ] );
+//        add_filter( 'rtcl_force_classic_style', '__return_true' );
 	}
 
 
@@ -1241,30 +1242,7 @@ class Listing_Functions {
 		if ( $listing->has_category() ):
 			$category = $listing->get_categories();
 			$category = end( $category );
-			if ( isset( $_GET['view'] ) && in_array( $_GET['view'], [ 'grid', 'list' ], true ) ) {
-				$view = esc_attr( $_GET['view'] );
-			} else {
-				$view = Functions::get_option_item( 'rtcl_archive_listing_settings', 'default_view', 'list' );
-			}
 			?>
-			<?php if ( $view == 'list') : ?>
-				<div class="listing-action">
-					<?php echo wp_kses_post( Listing_Functions::get_favourites_link( $listing->get_id() ) ); ?>
-					<?php if ( Fns::is_enable_compare() ) {
-						$compare_ids    = ! empty( $_SESSION['rtcl_compare_ids'] ) ? $_SESSION['rtcl_compare_ids'] : [];
-						$selected_class = '';
-						if ( is_array( $compare_ids ) && in_array( $listing->get_id(), $compare_ids ) ) {
-							$selected_class = ' selected';
-						}
-						?>
-						<a class="rtcl-compare <?php echo esc_attr( $selected_class ); ?>" href="#" data-toggle="tooltip" data-placement="top"
-						title="<?php esc_attr_e( "Compare", "clproperty" ) ?>"
-						data-original-title="<?php esc_attr_e( "Compare", "clproperty" ) ?>" data-listing_id="<?php echo absint( $listing->get_id() ) ?>">
-							<i class="icon-rt-icon-compare-line"></i>
-						</a>
-					<?php } ?>
-				</div>
-			<?php endif; ?>
 		   <?php if($listing->can_show_category() && ! Functions::is_listing() ) { ?>
 				<div class="product-category">
 					<a href="<?php echo esc_url(

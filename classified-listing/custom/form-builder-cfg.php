@@ -72,12 +72,12 @@ foreach ($sections as $section) {
             <div class="clproperty-accordion-item form-builder-custom-fields <?php echo esc_attr( $section['id'] ); ?>">
                 <div class="accordion-header" id="clproperty_listing_fb_cfg_heading">
                     <h3 class="mb-0">
-                        <button class="btn collapsed" data-toggle="collapse" data-target="#clproperty_<?php echo esc_attr( $section['id'] ); ?>" aria-expanded="false" aria-controls="clproperty_<?php echo esc_attr( $section['id'] ); ?>">
+                        <button class="btn" data-toggle="collapse" data-target="#clproperty_<?php echo esc_attr( $section['id'] ); ?>" aria-expanded="true" aria-controls="clproperty_<?php echo esc_attr( $section['id'] ); ?>">
                             <?php echo esc_html( $section['title'] ); ?>
                         </button>
                     </h3>
                 </div>
-                <div id="clproperty_<?php echo esc_attr( $section['id'] ); ?>" class="collapse accordion-collapse">
+                <div id="clproperty_<?php echo esc_attr( $section['id'] ); ?>" class="collapse accordion-collapse show">
                     <div class="clproperty-accordion-content">
                         <?php
                             foreach ( $section['containers'] as $column ){
