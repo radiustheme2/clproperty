@@ -1,0 +1,23 @@
+.wp-block-widget-area__inner-blocks .block-editor-block-list__layout.wp-block {
+    padding-left: 0;
+    margin-left: 0;
+} 
+
+.wp-block-widget-area__inner-blocks .block-editor-block-list__layout.wp-block h2 {
+	font-size: 22px;
+    line-height: 30px;
+    color: #144273;
+}
+
+.components-panel__header.edit-post-sidebar__panel-tabs li {
+    list-style: none;
+}
+
+/*#customize-control-custom_group_individual {*/
+/*    display: none;*/
+/*}*/
+
+
+/*Customizer CSS*/
+
+

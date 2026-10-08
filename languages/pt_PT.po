@@ -1,0 +1,3303 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ClProperty\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-19 12:39+0000\n"
+"PO-Revision-Date: 2026-08-23 10:00+0000\n"
+"Last-Translator: RadiusTheme\n"
+"Language-Team: Portuguese\n"
+"Language: pt_PT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: polib\n"
+
+#. %1$s: human-readable time since post, %2$s: date, %3$s: time.
+#: template-parts/comments-callback.php:37
+#, php-format
+msgid " %1$s ago / %2$s @ %3$s"
+msgstr " há %1$s / %2$s @ %3$s"
+
+#: template-parts/header/listing-area.php:17
+msgid " My Account"
+msgstr " Minha conta"
+
+#: classified-listing/content-single-agent.php:70
+msgid " Reviews"
+msgstr " Avaliações"
+
+#: template-parts/header/listing-area.php:17
+msgid " Sign in"
+msgstr " Entrar"
+
+#. 1: "type => link", 2: "taxonomy => link_category"
+#: inc/helper.php:690
+#, php-format
+msgid "%1$s is deprecated. Use %2$s instead."
+msgstr "%1$s está obsoleto. Use %2$s em vez disso."
+
+#. %d: number of days.
+#: classified-listing/checkout/membership-promotions.php:51
+msgid "%d Days"
+msgstr "%d Dias"
+
+#. %d: total results
+#: classified-listing/listing/loop/result-count.php:22
+msgid "%d Listing Found"
+msgid_plural "%d Listings Found"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: number of listings.
+#: agent-search-form.php:72
+#, php-format
+msgid "%s Listing"
+msgid_plural "%s Listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: property count.
+#: classified-listing/custom/functions.php:362
+#, php-format
+msgid "%s Property"
+msgid_plural "%s Properties"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: view count.
+#: classified-listing/listing/meta.php:40
+#: classified-listing/widgets/listings.php:67
+#, php-format
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: distance in miles.
+#: classified-listing/custom/yelp-review.php:74
+#, php-format
+msgid "(%s miles distance)"
+msgstr "(%s milhas de distância)"
+
+#. %s: review count.
+#: classified-listing/custom/listing-content-info.php:130
+#: classified-listing/custom/yelp-review.php:82
+#: classified-listing/custom/listing-heading.php:98
+#, php-format
+msgid "(<span>%s</span>) Reviews"
+msgstr "(<span>%s</span>) Avaliações"
+
+#: classified-listing/custom/listing-content-info.php:103
+#: classified-listing/store/store-link-to-user-information.php:41
+msgid "(Show)"
+msgstr "(Mostrar)"
+
+#: classified-listing/listing-form/category.php:37
+msgid "--Select a type--"
+msgstr "--Selecionar um tipo--"
+
+#: inc/customizer/settings/general.php:131
+msgid "196px,60px"
+msgstr "196px,60px"
+
+#: 404.php:32
+msgid "404"
+msgstr "404"
+
+#: inc/customizer/settings/error-layout.php:146
+msgid "404 Page Content Padding Bottom"
+msgstr "Espaçamento inferior do conteúdo da página 404"
+
+#: inc/customizer/settings/error-layout.php:130
+msgid "404 Page Content Padding Top "
+msgstr "Espaçamento superior do conteúdo da página 404 "
+
+#. %s: listing count.
+#: classified-listing/content-single-agent.php:39
+#, php-format
+msgid "<i class=\"icon-rt-icon-listing-line\"></i> Listing: %s"
+msgid_plural "<i class=\"icon-rt-icon-listing-line\"></i> Listings: %s "
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: Theme name, 2: Version, 3: Changelog URL, 4: Changelog title, 5: Update URL, 6: Update onclick
+#: inc/lib/updater/theme-updater.php:59
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4$s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update "
+"now</a>."
+msgstr ""
+
+#. %s: sender email.
+#: classified-listing/emails/listing-contact-email-to-owner.php:35
+#, php-format
+msgid "<strong>Email:</strong> %s"
+msgstr "<strong>E-mail:</strong> %s"
+
+#. %1$s: listing URL, %2$s: listing title.
+#: classified-listing/emails/listing-contact-email-to-admin.php:31
+#, php-format
+msgid "<strong>Listing :</strong> <a href=\"%1$s\">%2$s</a>"
+msgstr "<strong>Anúncio:</strong> <a href=\"%1$s\">%2$s</a>"
+
+#. %s: message content.
+#: classified-listing/emails/listing-contact-email-to-owner.php:39
+#, php-format
+msgid "<strong>Message:</strong> %s"
+msgstr "<strong>Mensagem:</strong> %s"
+
+#. %s: sender name.
+#: classified-listing/emails/listing-contact-email-to-owner.php:33
+#, php-format
+msgid "<strong>Name:</strong> %s"
+msgstr "<strong>Nome:</strong> %s"
+
+#. %s: sender phone.
+#: classified-listing/emails/listing-contact-email-to-owner.php:37
+#, php-format
+msgid "<strong>Phone:</strong> %s"
+msgstr "<strong>Telefone:</strong> %s"
+
+#. %s: sender email.
+#: classified-listing/emails/listing-contact-email-to-admin.php:35
+#, php-format
+msgid "<strong>Sender email:</strong> %s"
+msgstr "<strong>E-mail do remetente:</strong> %s"
+
+#. %s: message content.
+#: classified-listing/emails/listing-contact-email-to-admin.php:39
+#, php-format
+msgid "<strong>Sender message:</strong> %s"
+msgstr "<strong>Mensagem do remetente:</strong> %s"
+
+#. %s: sender name.
+#: classified-listing/emails/listing-contact-email-to-admin.php:33
+#, php-format
+msgid "<strong>Sender name:</strong> %s"
+msgstr "<strong>Nome do remetente:</strong> %s"
+
+#. %s: sender phone.
+#: classified-listing/emails/listing-contact-email-to-admin.php:37
+#, php-format
+msgid "<strong>Sender phone:</strong> %s"
+msgstr "<strong>Telefone do remetente:</strong> %s"
+
+#. %s: website name.
+#: classified-listing/emails/listing-contact-email-to-admin.php:29
+#, php-format
+msgid "A listing on your website %s received a message."
+msgstr "Um anúncio no seu site %s recebeu uma mensagem."
+
+#: classified-listing/custom/functions.php:748
+msgid "A suggested search radius in meters"
+msgstr "Um raio de pesquisa sugerido em metros"
+
+#. %s: theme name
+#: inc/lib/updater/lc-helper.php:91
+#, php-format
+msgid ""
+"Activate %s to unlock one-click demo import, automatic updates, bundled "
+"plugin installation, and premium support."
+msgstr ""
+
+#: inc/lib/updater/theme-updater.php:40
+msgid "Activate License"
+msgstr "Ativar licença"
+
+#: inc/lib/updater/theme-updater-admin.php:500
+msgid "activate your theme license"
+msgstr "ative a licença do seu tema"
+
+#: inc/lib/updater/lc-helper.php:78 inc/lib/updater/theme-updater-admin.php:159
+msgid "Activated"
+msgstr "Ativado"
+
+#: inc/lib/updater/lc-helper.php:145
+msgid ""
+"Activation issues are usually a mistyped code or a license already in use on "
+"another domain."
+msgstr "Problemas de ativação geralmente são um código digitado incorretamente ou uma licença já em uso em outro domínio."
+
+#: classified-listing/listing-form/category.php:32
+msgid "Ad Type"
+msgstr "Tipo de anúncio"
+
+#: inc/customizer/controls/gallery-control.php:27
+#: inc/customizer/controls/repeater-control.php:30
+msgid "Add"
+msgstr "Adicionar"
+
+#: inc/customizer/settings/listings.php:142
+msgid "Add API Key provided from walkscore"
+msgstr "Adicione a chave API fornecida pelo WalkScore"
+
+#: classified-listing/listing-form/information.php:250
+msgid "Add Floor"
+msgstr "Adicionar andar"
+
+#: classified-listing/custom/functions.php:803
+msgid "Add floor plan features."
+msgstr "Adicionar características da planta."
+
+#: inc/customizer/settings/breadcrumb.php:60
+msgid "Add image to change banner background image"
+msgstr "Adicione uma imagem para alterar a imagem de fundo do banner"
+
+#: inc/customizer/settings/general.php:100
+msgid "Add logo for mobile header"
+msgstr "Adicionar logo para o cabeçalho móvel"
+
+#: inc/customizer/settings/general.php:74
+msgid "Add logo for transparent header"
+msgstr "Adicionar logo para o cabeçalho transparente"
+
+#: classified-listing/custom/functions.php:191
+msgid "Add New"
+msgstr "Adicionar novo"
+
+#: classified-listing/custom/functions.php:190
+msgid "Add New Agency"
+msgstr "Adicionar nova agência"
+
+#: inc/customizer/settings/general.php:174
+msgid "Add preloader image to change default image"
+msgstr "Adicione imagem de pré-carregamento para alterar a imagem padrão"
+
+#: inc/customizer/settings/general.php:43
+msgid "Add site main logo"
+msgstr "Adicionar o logo principal do site"
+
+#: inc/customizer/settings/listings.php:123
+msgid "Add title for walkscore section"
+msgstr "Adicionar título para a secção WalkScore"
+
+#: inc/customizer/settings/contact-info.php:40
+msgid "Address"
+msgstr "Endereço"
+
+#: inc/customizer/customizer.php:51
+msgid "Adjust the overall layout for your site."
+msgstr "Ajuste o layout geral do seu site."
+
+#: classified-listing/archive-rtcl_listing.php:29
+msgid "Advanced Search"
+msgstr "Pesquisa avançada"
+
+#: classified-listing/custom/functions.php:189
+msgid "Agencies"
+msgstr "Agências"
+
+#: classified-listing/custom/functions.php:67
+#: classified-listing/custom/functions.php:187
+#: classified-listing/custom/functions.php:188
+#: classified-listing/custom/functions.php:201
+#: classified-listing/custom/functions.php:342
+#: classified-listing/custom/functions.php:1032
+msgid "Agency"
+msgstr "Agência"
+
+#: inc/customizer/customizer.php:214
+msgid "Agency Archive Layout"
+msgstr "Layout do arquivo de agências"
+
+#: inc/customizer/customizer.php:269
+msgid "Agency Archive Settings"
+msgstr "Configurações do arquivo de agências"
+
+#: classified-listing/custom/functions.php:286
+msgid "Agency Categories"
+msgstr "Categorias de agências"
+
+#: classified-listing/custom/functions.php:58
+#: classified-listing/custom/functions.php:59
+msgctxt "Agency Category Name"
+msgid "Agency Categories"
+msgstr "Categorias de agências"
+
+#: classified-listing/custom/functions.php:996
+msgid "Agency contact form"
+msgstr "Formulário de contacto da agência"
+
+#: classified-listing/custom/functions.php:982
+msgid "Agency contact information"
+msgstr "Informações de contacto da agência"
+
+#: classified-listing/custom/functions.php:202
+msgid "Agency Description"
+msgstr "Descrição da agência"
+
+#: classified-listing/custom/functions.php:1006
+msgid "Agency Logo"
+msgstr "Logo da agência"
+
+#: classified-listing/custom/functions.php:1082
+msgid "Agency Manager"
+msgstr "Gestor da agência"
+
+#: classified-listing/custom/functions.php:1056
+msgid ""
+"Agency menu at My Account page will visible only for the valid membership "
+"users. "
+msgstr "O menu da agência na página Minha Conta será visível apenas para utilizadores com subscrição válida. "
+
+#: classified-listing/custom/functions.php:1053
+msgid "Agency only for membership"
+msgstr "Agência apenas para membros"
+
+#: classified-listing/custom/functions.php:1038
+msgid "Agency rating"
+msgstr "Avaliação da agência"
+
+#: inc/customizer/customizer.php:206
+msgid "Agency Single Layout"
+msgstr "Layout de página única da agência"
+
+#: inc/customizer/customizer.php:297
+msgid "Agency Single Settings"
+msgstr "Configurações de página única da agência"
+
+#: inc/customizer/settings/agency.php:204
+#: inc/customizer/settings/agency.php:220
+msgid "Agency Slogan Visibility"
+msgstr "Visibilidade do slogan da agência"
+
+#: classified-listing/custom/functions.php:989
+msgid "Agency Update"
+msgstr "Atualizar agência"
+
+#: inc/helper.php:156 inc/general.php:294
+msgid "Agency/Store Sidebar"
+msgstr "Barra lateral da agência/loja"
+
+#: inc/customizer/customizer.php:190
+msgid "Agent Archive Layout"
+msgstr "Layout do arquivo de agentes"
+
+#: inc/customizer/customizer.php:276
+msgid "Agent Archive Settings"
+msgstr "Configurações do arquivo de agentes"
+
+#: inc/customizer/settings/agent.php:125
+msgid "Agent Listing Count Visibility"
+msgstr "Visibilidade da contagem de anúncios do agente"
+
+#: inc/customizer/settings/agent.php:109
+msgid "Agent Rating Visibility"
+msgstr "Visibilidade da avaliação do agente"
+
+#: inc/customizer/settings/agent.php:157
+msgid "Agent Service Visibility"
+msgstr "Visibilidade dos serviços do agente"
+
+#: inc/helper.php:157 inc/general.php:305
+msgid "Agent Sidebar"
+msgstr "Barra lateral do agente"
+
+#: inc/customizer/customizer.php:198
+msgid "Agent Single Layout"
+msgstr "Layout de página única do agente"
+
+#: inc/customizer/customizer.php:290
+msgid "Agent Single Settings"
+msgstr "Configurações de página única do agente"
+
+#: inc/customizer/settings/agent.php:141
+msgid "Agent Specialty Visibility"
+msgstr "Visibilidade da especialidade do agente"
+
+#: inc/customizer/settings/agent.php:171
+msgid "Agent/Store Listing Per Page"
+msgstr "Anúncios do agente/loja por página"
+
+#: classified-listing/custom/functions.php:345
+msgid "Agents"
+msgstr "Agentes"
+
+#. %s: author display name.
+#: classified-listing/listing/author-listing.php:46
+#, php-format
+msgid "All ads from %s"
+msgstr "Todos os anúncios de %s"
+
+#: classified-listing/custom/functions.php:1035
+msgid "All Agency functionality will be active"
+msgstr "Todas as funcionalidades da agência estarão ativas"
+
+#: classified-listing/custom/listing-search-widget.php:26
+msgid "All Categories"
+msgstr "Todas as categorias"
+
+#: classified-listing/custom/listing-search-widget.php:25
+msgid "All Cities"
+msgstr "Todas as cidades"
+
+#: inc/customizer/typography/typography-customizer.php:143
+msgid "All Heading Typography (H1-H6)"
+msgstr "Tipografia de todos os títulos (H1-H6)"
+
+#: inc/general.php:514
+msgid "All Posts"
+msgstr "Todas as publicações"
+
+#: classified-listing/listing/related-listings.php:35
+msgid "All Properties"
+msgstr "Todas as propriedades"
+
+#: classified-listing/custom/functions.php:1164
+msgid "Allowed category for free ads"
+msgstr "Categoria permitida para anúncios gratuitos"
+
+#: classified-listing/store/custom/store-info.php:118
+msgid "Always Open"
+msgstr "Sempre aberto"
+
+#: classified-listing/custom/listing-search-widget.php:214
+msgid "Amenities"
+msgstr "Comodidades"
+
+#: 404.php:22 404.php:23 404.php:24
+msgid "Animated Image"
+msgstr "Imagem animada"
+
+#: classified-listing/claim/claim-popup-form.php:59
+msgid "Attachment"
+msgstr "Anexo"
+
+#: classified-listing/custom/functions.php:782
+msgid "Autoload"
+msgstr "Carregamento automático"
+
+#: classified-listing/single-rtcl_listing-reviews.php:102
+msgid "Average"
+msgstr "Médio"
+
+#: inc/helper.php:467
+msgid "B"
+msgstr "B"
+
+#: inc/customizer/settings/general.php:229
+msgid "Back to Top"
+msgstr "Voltar ao topo"
+
+#: inc/customizer/settings/breadcrumb.php:59
+msgid "Banner/Breadcrumb Background Image"
+msgstr "Imagem de fundo do banner/caminho de navegação"
+
+#: classified-listing/listing-form/information.php:181
+#: classified-listing/listing-form/information.php:231
+#: classified-listing/custom/floor-plan.php:99
+msgid "Bath"
+msgstr "Casa de banho"
+
+#: classified-listing/listing/listable-fields.php:39
+#: classified-listing/custom/floor-plan.php:99
+msgid "Baths"
+msgstr "Casas de banho"
+
+#. %s: listing title.
+#: classified-listing/single-rtcl_listing-reviews.php:65
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Seja o primeiro a avaliar &ldquo;%s&rdquo;"
+
+#: classified-listing/listing-form/information.php:177
+#: classified-listing/listing-form/information.php:228
+#: classified-listing/custom/floor-plan.php:82
+msgid "Bed"
+msgstr "Quarto"
+
+#: classified-listing/listing/listable-fields.php:36
+#: classified-listing/custom/floor-plan.php:82
+msgid "Beds"
+msgstr "Quartos"
+
+#: classified-listing/custom/functions.php:755
+msgid "Best Match"
+msgstr "Melhor correspondência"
+
+#. Name of the template
+#: templates/blank.php:2
+msgid "Blank Template"
+msgstr "Modelo em branco"
+
+#: inc/customizer/settings/blog-layout.php:196
+msgid "Blog Archive Content Padding Bottom"
+msgstr "Espaçamento inferior do conteúdo do arquivo do blog"
+
+#: inc/customizer/settings/blog-layout.php:180
+msgid "Blog Archive Content Padding Top "
+msgstr "Espaçamento superior do conteúdo do arquivo do blog "
+
+#. Name of the template
+#: templates/template-blog-grid.php:2
+msgid "Blog Grid"
+msgstr "Grelha do blog"
+
+#: inc/customizer/customizer.php:142 inc/customizer/settings/blog.php:44
+msgid "Blog Layout"
+msgstr "Layout do blog"
+
+#: inc/customizer/customizer.php:223
+msgid "Blog Settings"
+msgstr "Configurações do blog"
+
+#: inc/customizer/typography/typography-customizer.php:48
+#: inc/customizer/typography/typography-customizer.php:84
+msgid "Body"
+msgstr "Corpo"
+
+#: inc/customizer/settings/color.php:74
+msgid "Body Color"
+msgstr "Cor do corpo"
+
+#: inc/customizer/settings/single-post-layout.php:125
+#: inc/customizer/settings/listing-archive-layout.php:125
+#: inc/customizer/settings/agent-single-layout.php:141
+#: inc/customizer/settings/agent-archive-layout.php:142
+#: inc/customizer/settings/blog-layout.php:128
+#: inc/customizer/settings/error-layout.php:78
+#: inc/customizer/settings/header.php:64
+#: inc/customizer/settings/store-archive-layout.php:124
+#: inc/customizer/settings/listing-single-layout.php:85
+#: inc/customizer/settings/store-single-layout.php:141
+#: inc/customizer/settings/page-layout.php:128
+msgid "Box width"
+msgstr "Largura da caixa"
+
+#: inc/customizer/customizer.php:99
+#: inc/customizer/settings/single-post-layout.php:191
+#: inc/customizer/settings/listing-archive-layout.php:159
+#: inc/customizer/settings/agent-single-layout.php:157
+#: inc/customizer/settings/agent-archive-layout.php:159
+#: inc/customizer/settings/blog-layout.php:162
+#: inc/customizer/settings/error-layout.php:112
+#: inc/customizer/settings/store-archive-layout.php:190
+#: inc/customizer/settings/listing-single-layout.php:119
+#: inc/customizer/settings/store-single-layout.php:157
+#: inc/customizer/settings/page-layout.php:162
+msgid "Breadcrumb"
+msgstr "Caminho de navegação"
+
+#: inc/general.php:534
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr "Início"
+
+#: inc/customizer/settings/color.php:357
+msgid "Breadcrumb Active Color"
+msgstr "Cor ativa do caminho de navegação"
+
+#: inc/customizer/settings/color.php:313
+msgid "Breadcrumb Background"
+msgstr "Fundo do caminho de navegação"
+
+#: inc/customizer/customizer.php:127
+msgid "Breadcrumb Color"
+msgstr "Cor do caminho de navegação"
+
+#: inc/customizer/settings/color.php:343
+msgid "Breadcrumb Text Color"
+msgstr "Cor do texto do caminho de navegação"
+
+#: inc/customizer/settings/color.php:328
+msgid "Breadcrumb Title Color"
+msgstr "Cor do título do caminho de navegação"
+
+#: inc/customizer/settings/breadcrumb.php:44
+msgid "Breadcrumb Visibility"
+msgstr "Visibilidade do caminho de navegação"
+
+#: classified-listing/custom/functions.php:737
+msgid "Business Limit"
+msgstr "Limite de negócios"
+
+#: classified-listing/custom/functions.php:751
+msgid "Business Sort by"
+msgstr "Ordenar negócios por"
+
+#: inc/customizer/settings/header.php:174
+msgid "Button Link"
+msgstr "Link do botão"
+
+#: inc/customizer/settings/header.php:158 inc/customizer/settings/error.php:93
+msgid "Button Text"
+msgstr "Texto do botão"
+
+#: template-parts/content-single.php:58
+msgid "by"
+msgstr "por"
+
+#: template-parts/content.php:35 template-parts/content-alt.php:55
+#: classified-listing/listing/meta.php:25
+msgid "by "
+msgstr "por "
+
+#: inc/lib/updater/lc-helper.php:113
+msgid "by RadiusTheme"
+msgstr "por RadiusTheme"
+
+#: classified-listing/listing-form/category.php:63
+msgid "Category"
+msgstr "Categoria"
+
+#: inc/customizer/settings/newsletter.php:88
+#: inc/customizer/settings/error.php:44
+#: inc/customizer/settings/breadcrumb.php:65
+msgid "Change File"
+msgstr "Alterar ficheiro"
+
+#: inc/customizer/settings/general.php:179
+msgid "Change Image"
+msgstr "Alterar imagem"
+
+#: inc/customizer/settings/general.php:48
+#: inc/customizer/settings/general.php:79
+#: inc/customizer/settings/general.php:105
+msgid "Change Logo"
+msgstr "Alterar logo"
+
+#: inc/customizer/customizer.php:59
+msgid "Change site color"
+msgstr "Alterar cor do site"
+
+#: inc/customizer/typography/typography-customizer.php:41
+msgid "Change site typography."
+msgstr "Alterar tipografia do site."
+
+#. %s: character limit number.
+#: classified-listing/listing-form/information.php:52
+#: classified-listing/listing-form/information.php:308
+#, php-format
+msgid "Character limit <span class='target-limit'>%s</span>"
+msgstr "Limite de caracteres <span class='target-limit'>%s</span>"
+
+#: inc/customizer/settings/listings.php:404
+msgid "Check for hiding listing type prefix (For) from everywhere."
+msgstr "Marcar para ocultar o prefixo do tipo de anúncio (Para) em todo o lado."
+
+#: classified-listing/custom/functions.php:784
+msgid "Check this to load automatically"
+msgstr "Marcar para carregar automaticamente"
+
+#: classified-listing/custom/functions.php:789
+msgid "Check this to show controls"
+msgstr "Marcar para mostrar controlos"
+
+#: inc/customizer/settings/newsletter.php:93
+#: inc/customizer/settings/error.php:49
+#: inc/customizer/settings/breadcrumb.php:70
+#: inc/customizer/settings/general.php:53
+#: inc/customizer/settings/general.php:84
+#: inc/customizer/settings/general.php:110
+#: inc/customizer/settings/general.php:184
+msgid "Choose File"
+msgstr "Escolher ficheiro"
+
+#: classified-listing/custom/listing-heading.php:67
+msgid "Claimed"
+msgstr "Reivindicado"
+
+#: inc/lib/updater/lc-helper.php:113
+msgid "Classified Ads WordPress Theme"
+msgstr "Tema WordPress de anúncios classificados"
+
+#: classified-listing/store/custom/store-info.php:104
+#: classified-listing/store/custom/store-info.php:151
+msgid "Closed"
+msgstr "Fechado"
+
+#. Name of the theme
+msgid "ClProperty"
+msgstr "ClProperty"
+
+#. Description of the theme
+msgid ""
+"ClProperty is a modern and clean WordPress Theme best suited for real estate "
+"website. This theme comes with all necessary features and pages for a Real "
+"Estate website."
+msgstr ""
+
+#: inc/customizer/customizer.php:58
+msgid "Color"
+msgstr "Cor"
+
+#: comments.php:26
+msgid "Comment"
+msgstr "Comentário"
+
+#: comments.php:75
+msgid "Comment *"
+msgstr "Comentário *"
+
+#: comments.php:26
+msgid "Comments"
+msgstr "Comentários"
+
+#: inc/general.php:175
+msgid "comments"
+msgstr "comentários"
+
+#: comments.php:46
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: inc/general.php:615 inc/general.php:616 inc/general.php:699
+#: inc/general.php:700 classified-listing/agent/ad-listing.php:79
+#: classified-listing/agent/ad-listing.php:80
+#: classified-listing/agent/ad-listing.php:153
+#: classified-listing/agent/ad-listing.php:154
+#: classified-listing/custom/functions.php:1261
+#: classified-listing/custom/functions.php:1262
+#: classified-listing/store/ad-listing.php:65
+#: classified-listing/store/ad-listing.php:66
+#: classified-listing/listing/loop/thumbnail.php:54
+#: classified-listing/listing/loop/thumbnail.php:55
+#: classified-listing/listing/loop/thumbnail.php:86
+#: classified-listing/listing/loop/thumbnail.php:87
+#: classified-listing/listing/loop/thumbnail.php:126
+#: classified-listing/listing/loop/thumbnail.php:127
+msgid "Compare"
+msgstr "Comparar"
+
+#: classified-listing/custom/listing-content-info.php:60
+msgid "Contact"
+msgstr "Contacto"
+
+#: inc/customizer/customizer.php:238
+msgid "Contact & Social"
+msgstr "Contacto e redes sociais"
+
+#: classified-listing/listing/user-information.php:32
+msgid "Contact Agent"
+msgstr "Contactar agente"
+
+#: classified-listing/custom/listing-content-info.php:49
+msgid "Contact Listing Owner"
+msgstr "Contactar o proprietário do anúncio"
+
+#: inc/lib/updater/lc-helper.php:148
+msgid "Contact Support Center"
+msgstr "Contactar o centro de suporte"
+
+#: inc/customizer/settings/listing-archive-layout.php:192
+#: inc/customizer/settings/agent-single-layout.php:209
+#: inc/customizer/settings/agent-archive-layout.php:212
+#: inc/customizer/settings/error-layout.php:145
+#: inc/customizer/settings/store-archive-layout.php:173
+#: inc/customizer/settings/listing-single-layout.php:171
+#: inc/customizer/settings/store-single-layout.php:209
+#: inc/customizer/settings/page-layout.php:195
+msgid "Content Padding Bottom"
+msgstr "Espaçamento inferior do conteúdo"
+
+#: inc/customizer/settings/single-post-layout.php:174
+#: inc/customizer/settings/blog-layout.php:195
+msgid "Content Padding Bottom (rem)"
+msgstr "Espaçamento inferior do conteúdo (rem)"
+
+#: inc/customizer/settings/listing-archive-layout.php:176
+#: inc/customizer/settings/agent-single-layout.php:193
+#: inc/customizer/settings/agent-archive-layout.php:196
+#: inc/customizer/settings/error-layout.php:129
+#: inc/customizer/settings/store-archive-layout.php:157
+#: inc/customizer/settings/listing-single-layout.php:155
+#: inc/customizer/settings/store-single-layout.php:193
+#: inc/customizer/settings/page-layout.php:179
+msgid "Content Padding Top"
+msgstr "Espaçamento superior do conteúdo"
+
+#: inc/customizer/settings/single-post-layout.php:158
+#: inc/customizer/settings/blog-layout.php:179
+msgid "Content Padding Top (rem)"
+msgstr "Espaçamento superior do conteúdo (rem)"
+
+#: inc/lib/updater/lc-helper.php:137
+#, php-format
+msgid "Copy the key for %s."
+msgstr "Copie a chave para %s."
+
+#: inc/customizer/settings/color.php:450
+msgid "Copyright Background"
+msgstr "Fundo dos direitos de autor"
+
+#: inc/customizer/settings/footer.php:92
+msgid "Copyright Text"
+msgstr "Texto dos direitos de autor"
+
+#: inc/customizer/settings/color.php:467
+msgid "Copyright Text Color"
+msgstr "Cor do texto dos direitos de autor"
+
+#: classified-listing/custom/functions.php:734
+msgid "Create API key from yelp and enter here"
+msgstr "Crie uma chave API no Yelp e introduza aqui"
+
+#: inc/customizer/settings/single-post-layout.php:71
+#: inc/customizer/settings/listing-archive-layout.php:71
+#: inc/customizer/settings/agent-single-layout.php:71
+#: inc/customizer/settings/agent-archive-layout.php:71
+#: inc/customizer/settings/blog-layout.php:71
+#: inc/customizer/settings/store-archive-layout.php:71
+#: inc/customizer/settings/store-single-layout.php:71
+#: inc/customizer/settings/page-layout.php:71
+msgid "Custom Sidebar"
+msgstr "Barra lateral personalizada"
+
+#: classified-listing/custom/fb_cfg_filter_fields.php:287
+msgid "Date / Time"
+msgstr "Data / Hora"
+
+#: classified-listing/custom/functions.php:380
+msgid "day"
+msgstr "dia"
+
+#: inc/lib/updater/theme-updater.php:39
+msgid "Deactivate License"
+msgstr "Desativar licença"
+
+#: inc/helper.php:190 inc/customizer/settings/single-post-layout.php:87
+#: inc/customizer/settings/single-post-layout.php:105
+#: inc/customizer/settings/single-post-layout.php:124
+#: inc/customizer/settings/single-post-layout.php:143
+#: inc/customizer/settings/single-post-layout.php:193
+#: inc/customizer/settings/single-post-layout.php:211
+#: inc/customizer/settings/listing-archive-layout.php:87
+#: inc/customizer/settings/listing-archive-layout.php:105
+#: inc/customizer/settings/listing-archive-layout.php:124
+#: inc/customizer/settings/listing-archive-layout.php:143
+#: inc/customizer/settings/listing-archive-layout.php:161
+#: inc/customizer/settings/listing-archive-layout.php:211
+#: inc/customizer/settings/newsletter.php:89
+#: inc/customizer/settings/agent-single-layout.php:87
+#: inc/customizer/settings/agent-single-layout.php:122
+#: inc/customizer/settings/agent-single-layout.php:140
+#: inc/customizer/settings/agent-single-layout.php:159
+#: inc/customizer/settings/agent-single-layout.php:177
+#: inc/customizer/settings/agent-archive-layout.php:87
+#: inc/customizer/settings/agent-archive-layout.php:123
+#: inc/customizer/settings/agent-archive-layout.php:141
+#: inc/customizer/settings/agent-archive-layout.php:161
+#: inc/customizer/settings/agent-archive-layout.php:180
+#: inc/customizer/settings/blog-layout.php:87
+#: inc/customizer/settings/blog-layout.php:105
+#: inc/customizer/settings/blog-layout.php:127
+#: inc/customizer/settings/blog-layout.php:146
+#: inc/customizer/settings/blog-layout.php:164
+#: inc/customizer/settings/blog-layout.php:215
+#: inc/customizer/settings/error-layout.php:43
+#: inc/customizer/settings/error-layout.php:77
+#: inc/customizer/settings/error-layout.php:96
+#: inc/customizer/settings/error-layout.php:114
+#: inc/customizer/settings/error-layout.php:164
+#: inc/customizer/settings/error.php:45
+#: inc/customizer/settings/store-archive-layout.php:87
+#: inc/customizer/settings/store-archive-layout.php:105
+#: inc/customizer/settings/store-archive-layout.php:123
+#: inc/customizer/settings/store-archive-layout.php:142
+#: inc/customizer/settings/store-archive-layout.php:192
+#: inc/customizer/settings/store-archive-layout.php:210
+#: inc/customizer/settings/breadcrumb.php:66
+#: inc/customizer/settings/listing-single-layout.php:44
+#: inc/customizer/settings/listing-single-layout.php:62
+#: inc/customizer/settings/listing-single-layout.php:84
+#: inc/customizer/settings/listing-single-layout.php:103
+#: inc/customizer/settings/listing-single-layout.php:121
+#: inc/customizer/settings/listing-single-layout.php:139
+#: inc/customizer/settings/store-single-layout.php:87
+#: inc/customizer/settings/store-single-layout.php:122
+#: inc/customizer/settings/store-single-layout.php:140
+#: inc/customizer/settings/store-single-layout.php:159
+#: inc/customizer/settings/store-single-layout.php:177
+#: inc/customizer/settings/general.php:49
+#: inc/customizer/settings/general.php:80
+#: inc/customizer/settings/general.php:106
+#: inc/customizer/settings/general.php:180
+#: inc/customizer/settings/page-layout.php:87
+#: inc/customizer/settings/page-layout.php:105
+#: inc/customizer/settings/page-layout.php:127
+#: inc/customizer/settings/page-layout.php:146
+#: inc/customizer/settings/page-layout.php:164
+#: inc/customizer/settings/page-layout.php:214
+#: classified-listing/listing/loop/orderby.php:20
+msgid "Default"
+msgstr "Padrão"
+
+#: classified-listing/listing-form/information.php:172
+#: classified-listing/listing-form/information.php:222
+#: classified-listing/listing-form/information.php:284
+#: classified-listing/custom/single-listing-accordion.php:30
+msgid "Description"
+msgstr "Descrição"
+
+#: agent-search-form.php:96 classified-listing/claim/claim-popup-form.php:52
+msgid "Details"
+msgstr "Detalhes"
+
+#: inc/customizer/settings/single-post-layout.php:89
+#: inc/customizer/settings/single-post-layout.php:145
+#: inc/customizer/settings/single-post-layout.php:195
+#: inc/customizer/settings/listing-archive-layout.php:89
+#: inc/customizer/settings/listing-archive-layout.php:145
+#: inc/customizer/settings/listing-archive-layout.php:163
+#: inc/customizer/settings/agent-single-layout.php:89
+#: inc/customizer/settings/agent-single-layout.php:124
+#: inc/customizer/settings/agent-single-layout.php:161
+#: inc/customizer/settings/agent-archive-layout.php:89
+#: inc/customizer/settings/agent-archive-layout.php:125
+#: inc/customizer/settings/agent-archive-layout.php:163
+#: inc/customizer/settings/blog-layout.php:89
+#: inc/customizer/settings/blog-layout.php:148
+#: inc/customizer/settings/blog-layout.php:166
+#: inc/customizer/settings/error-layout.php:45
+#: inc/customizer/settings/error-layout.php:98
+#: inc/customizer/settings/error-layout.php:116
+#: inc/customizer/settings/store-archive-layout.php:89
+#: inc/customizer/settings/store-archive-layout.php:144
+#: inc/customizer/settings/store-archive-layout.php:194
+#: inc/customizer/settings/listing-single-layout.php:46
+#: inc/customizer/settings/listing-single-layout.php:105
+#: inc/customizer/settings/listing-single-layout.php:123
+#: inc/customizer/settings/listings.php:504
+#: inc/customizer/settings/store-single-layout.php:89
+#: inc/customizer/settings/store-single-layout.php:124
+#: inc/customizer/settings/store-single-layout.php:161
+#: inc/customizer/settings/page-layout.php:89
+#: inc/customizer/settings/page-layout.php:148
+#: inc/customizer/settings/page-layout.php:166
+msgid "Disable"
+msgstr "Desativar"
+
+#: inc/customizer/settings/post.php:168
+msgid "Display Author About"
+msgstr "Mostrar informações do autor"
+
+#: inc/customizer/settings/post.php:55 inc/customizer/settings/blog.php:83
+msgid "Display Author Name"
+msgstr "Mostrar nome do autor"
+
+#: inc/customizer/settings/post.php:83 inc/customizer/settings/blog.php:98
+msgid "Display Category"
+msgstr "Mostrar categoria"
+
+#: inc/customizer/settings/post.php:69 inc/customizer/settings/blog.php:128
+msgid "Display Comment Count"
+msgstr "Mostrar contagem de comentários"
+
+#: inc/customizer/settings/footer.php:78
+msgid "Display Copyright Area"
+msgstr "Mostrar área de direitos de autor"
+
+#: inc/customizer/settings/post.php:41 inc/customizer/settings/blog.php:69
+msgid "Display Date"
+msgstr "Mostrar data"
+
+#: inc/customizer/settings/post.php:154
+msgid "Display Navigation"
+msgstr "Mostrar navegação"
+
+#: inc/customizer/settings/post.php:111
+msgid "Display Post Reading Time"
+msgstr "Mostrar tempo de leitura da publicação"
+
+#: inc/customizer/settings/blog.php:113
+msgid "Display Reading Time"
+msgstr "Mostrar tempo de leitura"
+
+#: inc/customizer/settings/post.php:97
+msgid "Display Related Posts"
+msgstr "Mostrar publicações relacionadas"
+
+#: inc/customizer/settings/post.php:139
+msgid "Display Social Share"
+msgstr "Mostrar partilha social"
+
+#: inc/customizer/settings/post.php:125
+msgid "Display Tag"
+msgstr "Mostrar etiquetas"
+
+#: classified-listing/custom/functions.php:758
+msgid "Distance"
+msgstr "Distância"
+
+#: inc/clproperty-mortgage-calculator.php:92
+msgid "Down Payment"
+msgstr "Entrada"
+
+#: classified-listing/store/custom/store-info.php:56
+msgid "E-mail: "
+msgstr "E-mail: "
+
+#: classified-listing/custom/functions.php:193
+msgid "Edit Agency"
+msgstr "Editar agência"
+
+#: comments.php:69 classified-listing/single-rtcl_listing-reviews.php:78
+#: classified-listing/content-single-agent.php:103
+#: classified-listing/listing/author-content.php:84
+#: classified-listing/claim/claim-popup-form.php:42
+#: inc/customizer/settings/contact-info.php:70
+msgid "Email"
+msgstr "E-mail"
+
+#: classified-listing/global/form-login-old.php:86
+msgid "Email address"
+msgstr "Endereço de e-mail"
+
+#: classified-listing/listing/email-to-seller-form.php:24
+msgid "Email*"
+msgstr "E-mail*"
+
+#: classified-listing/custom/functions.php:1027
+#: classified-listing/custom/functions.php:1033
+#: classified-listing/custom/functions.php:1039
+#: classified-listing/custom/functions.php:1054
+#: classified-listing/custom/functions.php:1068
+#: classified-listing/custom/functions.php:1083
+#: classified-listing/custom/functions.php:1096
+#: classified-listing/custom/functions.php:1147
+#: inc/customizer/settings/single-post-layout.php:88
+#: inc/customizer/settings/single-post-layout.php:144
+#: inc/customizer/settings/single-post-layout.php:194
+#: inc/customizer/settings/listing-archive-layout.php:88
+#: inc/customizer/settings/listing-archive-layout.php:144
+#: inc/customizer/settings/listing-archive-layout.php:162
+#: inc/customizer/settings/agent-single-layout.php:88
+#: inc/customizer/settings/agent-single-layout.php:123
+#: inc/customizer/settings/agent-single-layout.php:160
+#: inc/customizer/settings/agent-archive-layout.php:88
+#: inc/customizer/settings/agent-archive-layout.php:124
+#: inc/customizer/settings/agent-archive-layout.php:162
+#: inc/customizer/settings/blog-layout.php:88
+#: inc/customizer/settings/blog-layout.php:147
+#: inc/customizer/settings/blog-layout.php:165
+#: inc/customizer/settings/error-layout.php:44
+#: inc/customizer/settings/error-layout.php:97
+#: inc/customizer/settings/error-layout.php:115
+#: inc/customizer/settings/store-archive-layout.php:88
+#: inc/customizer/settings/store-archive-layout.php:143
+#: inc/customizer/settings/store-archive-layout.php:193
+#: inc/customizer/settings/listing-single-layout.php:45
+#: inc/customizer/settings/listing-single-layout.php:104
+#: inc/customizer/settings/listing-single-layout.php:122
+#: inc/customizer/settings/listings.php:503
+#: inc/customizer/settings/store-single-layout.php:88
+#: inc/customizer/settings/store-single-layout.php:123
+#: inc/customizer/settings/store-single-layout.php:160
+#: inc/customizer/settings/page-layout.php:88
+#: inc/customizer/settings/page-layout.php:147
+#: inc/customizer/settings/page-layout.php:165
+msgid "Enable"
+msgstr "Ativar"
+
+#: classified-listing/custom/functions.php:1042
+msgid "Enable Agency rating. "
+msgstr "Ativar avaliação da agência. "
+
+#: classified-listing/custom/functions.php:801
+msgid "Enable Floor Plan"
+msgstr "Ativar planta"
+
+#: classified-listing/custom/functions.php:1098
+msgid "Enable free ad posting"
+msgstr "Ativar publicação de anúncios gratuitos"
+
+#: classified-listing/custom/functions.php:1029
+msgid "Enable Membership option"
+msgstr "Ativar opção de subscrição"
+
+#: classified-listing/custom/functions.php:1939
+msgid "Enable Mortgage Calculator"
+msgstr "Ativar calculadora de hipoteca"
+
+#: classified-listing/custom/functions.php:772
+msgid "Enable Panorama"
+msgstr "Ativar panorama"
+
+#: classified-listing/custom/functions.php:1912
+msgid "Enable Printer Button"
+msgstr "Ativar botão de impressão"
+
+#: classified-listing/custom/functions.php:1161
+msgid "Enable unlimited free ad posting for membership user."
+msgstr "Ativar publicação ilimitada de anúncios gratuitos para subscritores."
+
+#: classified-listing/custom/functions.php:727
+msgid "Enable Yelp Review"
+msgstr "Ativar avaliação Yelp"
+
+#: classified-listing/custom/functions.php:545
+msgid "Enter Keyword here ..."
+msgstr "Introduza palavra-chave aqui ..."
+
+#: classified-listing/custom/listing-search-banner.php:187
+msgid "Enter location"
+msgstr "Introduzir localização"
+
+#: inc/customizer/settings/general.php:129
+msgid "Enter logo width height by comma separator. Eg: 196px,60px"
+msgstr "Introduza largura e altura do logo separados por vírgula. Ex: 196px,60px"
+
+#: classified-listing/widgets/search/vertical.php:23
+msgid "Enter your keyword here ..."
+msgstr "Introduza a sua palavra-chave aqui ..."
+
+#: inc/lib/updater/theme-updater-admin.php:152
+msgid "Enter your theme license key"
+msgstr "Introduza a sua chave de licença do tema"
+
+#: inc/lib/updater/theme-updater.php:36
+msgid "Enter your theme license key."
+msgstr "Introduza a sua chave de licença do tema."
+
+#: inc/customizer/customizer.php:166
+msgid "Error Layout"
+msgstr "Layout de erro"
+
+#: inc/general.php:504 inc/customizer/customizer.php:322
+msgid "Error Page"
+msgstr "Página de erro"
+
+#: inc/customizer/settings/error.php:78
+msgid "Error Subtitle"
+msgstr "Subtítulo de erro"
+
+#: inc/customizer/settings/error.php:63
+msgid "Error Text"
+msgstr "Texto de erro"
+
+#: inc/customizer/settings/blog.php:142
+msgid "Excerpt Length"
+msgstr "Comprimento do excerto"
+
+#. %s: expiration date
+#: inc/lib/updater/theme-updater.php:46
+#, php-format
+msgid "Expires %s."
+msgstr "Expira em %s."
+
+#: inc/customizer/settings/contact-info.php:154
+msgid "Facebook"
+msgstr "Facebook"
+
+#: template-parts/header/listing-area.php:61
+#: classified-listing/custom/functions.php:1864
+#: classified-listing/custom/functions.php:1868
+#: classified-listing/custom/functions.php:1873
+msgid "Favourites"
+msgstr "Favoritos"
+
+#: inc/customizer/settings/listings.php:214
+msgid "Feature & Aminities Text"
+msgstr "Texto de características e comodidades"
+
+#: inc/helper.php:615
+msgid "Featured"
+msgstr "Destaque"
+
+#: inc/customizer/settings/error.php:39
+msgid "Featured Image"
+msgstr "Imagem de destaque"
+
+#: inc/customizer/settings/listings.php:197
+msgid "Features & Amenities Visibility"
+msgstr "Visibilidade de características e comodidades"
+
+#: classified-listing/custom/listing-search-widget.php:265
+msgid "Find Property"
+msgstr "Encontrar propriedade"
+
+#: classified-listing/custom/functions.php:797
+msgid "Floor Plan Settings"
+msgstr "Configurações da planta"
+
+#: inc/customizer/typography/typography-customizer.php:101
+#: inc/customizer/typography/typography-customizer.php:188
+#: inc/customizer/typography/typography-customizer.php:254
+#: inc/customizer/typography/typography-customizer.php:320
+#: inc/customizer/typography/typography-customizer.php:386
+#: inc/customizer/typography/typography-customizer.php:452
+#: inc/customizer/typography/typography-customizer.php:518
+#: inc/customizer/typography/typography-customizer.php:588
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: inc/customizer/typography/typography-customizer.php:102
+#: inc/customizer/typography/typography-customizer.php:189
+#: inc/customizer/typography/typography-customizer.php:255
+#: inc/customizer/typography/typography-customizer.php:321
+#: inc/customizer/typography/typography-customizer.php:387
+#: inc/customizer/typography/typography-customizer.php:453
+#: inc/customizer/typography/typography-customizer.php:519
+#: inc/customizer/typography/typography-customizer.php:589
+#: inc/customizer/typography/typography-customizer.php:655
+msgid "Font Size (px)"
+msgstr "Tamanho da fonte (px)"
+
+#: inc/customizer/customizer.php:106
+msgid "Footer"
+msgstr "Rodapé"
+
+#: inc/general.php:263
+msgid "Footer 1"
+msgstr "Rodapé 1"
+
+#: inc/general.php:264
+msgid "Footer 2"
+msgstr "Rodapé 2"
+
+#: inc/general.php:265
+msgid "Footer 3"
+msgstr "Rodapé 3"
+
+#: inc/general.php:266
+msgid "Footer 4"
+msgstr "Rodapé 4"
+
+#: inc/customizer/settings/color.php:375
+msgid "Footer Background"
+msgstr "Fundo do rodapé"
+
+#: inc/customizer/settings/footer.php:63
+msgid "Footer Border Top"
+msgstr "Borda superior do rodapé"
+
+#: inc/customizer/customizer.php:134
+msgid "Footer Color"
+msgstr "Cor do rodapé"
+
+#: inc/customizer/settings/single-post-layout.php:209
+#: inc/customizer/settings/listing-archive-layout.php:209
+#: inc/customizer/settings/agent-single-layout.php:175
+#: inc/customizer/settings/agent-archive-layout.php:178
+#: inc/customizer/settings/blog-layout.php:213
+#: inc/customizer/settings/error-layout.php:162
+#: inc/customizer/settings/store-archive-layout.php:208
+#: inc/customizer/settings/footer.php:42
+#: inc/customizer/settings/listing-single-layout.php:137
+#: inc/customizer/settings/store-single-layout.php:175
+#: inc/customizer/settings/page-layout.php:212
+msgid "Footer Layout"
+msgstr "Layout do rodapé"
+
+#: inc/customizer/settings/color.php:390
+msgid "Footer Text color"
+msgstr "Cor do texto do rodapé"
+
+#: inc/customizer/settings/color.php:420
+msgid "Footer Widget Link Color"
+msgstr "Cor do link do widget do rodapé"
+
+#: inc/customizer/settings/color.php:435
+msgid "Footer Widget Link Hover Color"
+msgstr "Cor hover do link do widget do rodapé"
+
+#: inc/customizer/settings/color.php:405
+msgid "Footer Widget Title Color"
+msgstr "Cor do título do widget do rodapé"
+
+#: inc/general.php:603 inc/general.php:687
+#: classified-listing/agent/ad-listing.php:67
+#: classified-listing/agent/ad-listing.php:141
+#: classified-listing/custom/functions.php:1232
+#: classified-listing/custom/author-ajax-listing.php:48
+#: classified-listing/custom/listing-heading.php:56
+#: classified-listing/widgets/listings.php:37
+#: classified-listing/store/ad-listing.php:53
+#: classified-listing/listing/loop/thumbnail.php:40
+#: classified-listing/listing/loop/thumbnail.php:72
+#: classified-listing/listing/loop/thumbnail.php:108
+msgid "For"
+msgstr "Para"
+
+#: classified-listing/global/form-login-old.php:57
+msgid "Forgot your password?"
+msgstr "Esqueceu a sua palavra-passe?"
+
+#: classified-listing/custom/functions.php:1095
+msgid "Free ads"
+msgstr "Anúncios gratuitos"
+
+#: classified-listing/custom/functions.php:1131
+msgid ""
+"Free ads number will be renew after this days.<br>If this field is blank it "
+"will be 30"
+msgstr "O número de anúncios gratuitos será renovado após estes dias.<br>Se este campo estiver vazio será 30"
+
+#: inc/customizer/settings/single-post-layout.php:51
+#: inc/customizer/settings/listing-archive-layout.php:51
+#: inc/customizer/settings/agent-single-layout.php:51
+#: inc/customizer/settings/agent-archive-layout.php:51
+#: inc/customizer/settings/blog-layout.php:51
+#: inc/customizer/settings/store-archive-layout.php:51
+#: inc/customizer/settings/store-single-layout.php:51
+#: inc/customizer/settings/page-layout.php:51
+msgid "Full Width"
+msgstr "Largura total"
+
+#: inc/customizer/settings/single-post-layout.php:126
+#: inc/customizer/settings/listing-archive-layout.php:126
+#: inc/customizer/settings/agent-single-layout.php:142
+#: inc/customizer/settings/agent-archive-layout.php:143
+#: inc/customizer/settings/blog-layout.php:129
+#: inc/customizer/settings/error-layout.php:79
+#: inc/customizer/settings/header.php:65
+#: inc/customizer/settings/store-archive-layout.php:125
+#: inc/customizer/settings/listing-single-layout.php:86
+#: inc/customizer/settings/store-single-layout.php:142
+#: inc/customizer/settings/page-layout.php:129
+msgid "Fullwidth"
+msgstr "Largura total"
+
+#: inc/customizer/customizer.php:85
+msgid "General"
+msgstr "Geral"
+
+#: template-parts/content-none.php:19
+msgid "Get started here"
+msgstr "Comece aqui"
+
+#: inc/lib/updater/lc-helper.php:136
+msgid "Go to Downloads, then License keys."
+msgstr "Vá a Transferências, depois Chaves de licença."
+
+#: classified-listing/single-rtcl_listing-reviews.php:101
+msgid "Good"
+msgstr "Bom"
+
+#: inc/scripts.php:94
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr "ativado"
+
+#: inc/customizer/settings/color.php:121
+msgid "Gradient Dark Color"
+msgstr "Cor escura do gradiente"
+
+#: inc/customizer/settings/color.php:137
+msgid "Gradient Light Color"
+msgstr "Cor clara do gradiente"
+
+#: inc/customizer/settings/blog.php:54
+msgid "Grid"
+msgstr "Grelha"
+
+#: classified-listing/custom/functions.php:1012
+msgid "Hard Crop"
+msgstr "Corte rígido"
+
+#: inc/customizer/customizer.php:92
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: inc/customizer/customizer.php:120
+msgid "Header Color"
+msgstr "Cor do cabeçalho"
+
+#: inc/customizer/settings/header.php:225
+msgid "Header Compare Icon Visibility"
+msgstr "Visibilidade do ícone de comparação do cabeçalho"
+
+#: inc/customizer/settings/header.php:209
+msgid "Header Favourite Icon Visibility"
+msgstr "Visibilidade do ícone de favoritos do cabeçalho"
+
+#: inc/customizer/typography/typography-customizer.php:171
+msgid "Header h1 "
+msgstr "Título h1 "
+
+#: inc/customizer/typography/typography-customizer.php:237
+msgid "Header h2 "
+msgstr "Título h2 "
+
+#: inc/customizer/typography/typography-customizer.php:303
+msgid "Header h3 "
+msgstr "Título h3 "
+
+#: inc/customizer/typography/typography-customizer.php:369
+msgid "Header h4 "
+msgstr "Título h4 "
+
+#: inc/customizer/typography/typography-customizer.php:435
+msgid "Header h5 "
+msgstr "Título h5 "
+
+#: inc/customizer/typography/typography-customizer.php:501
+msgid "Header h6 "
+msgstr "Título h6 "
+
+#: inc/customizer/settings/single-post-layout.php:103
+#: inc/customizer/settings/listing-archive-layout.php:103
+#: inc/customizer/settings/agent-single-layout.php:103
+#: inc/customizer/settings/agent-archive-layout.php:104
+#: inc/customizer/settings/blog-layout.php:103
+#: inc/customizer/settings/error-layout.php:59
+#: inc/customizer/settings/header.php:44
+#: inc/customizer/settings/store-archive-layout.php:103
+#: inc/customizer/settings/listing-single-layout.php:60
+#: inc/customizer/settings/store-single-layout.php:103
+#: inc/customizer/settings/page-layout.php:103
+msgid "Header Layout"
+msgstr "Layout do cabeçalho"
+
+#: inc/customizer/settings/header.php:192
+msgid "Header Login Icon Visibility"
+msgstr "Visibilidade do ícone de login do cabeçalho"
+
+#: inc/customizer/settings/header.php:143
+msgid "Header Right Button"
+msgstr "Botão direito do cabeçalho"
+
+#: inc/customizer/settings/header.php:240
+msgid "Header Search Icon Visibility"
+msgstr "Visibilidade do ícone de pesquisa do cabeçalho"
+
+#: inc/customizer/settings/single-post-layout.php:122
+#: inc/customizer/settings/listing-archive-layout.php:122
+#: inc/customizer/settings/agent-single-layout.php:138
+#: inc/customizer/settings/agent-archive-layout.php:139
+#: inc/customizer/settings/blog-layout.php:125
+#: inc/customizer/settings/error-layout.php:75
+#: inc/customizer/settings/header.php:62
+#: inc/customizer/settings/store-archive-layout.php:121
+#: inc/customizer/settings/listing-single-layout.php:82
+#: inc/customizer/settings/store-single-layout.php:138
+#: inc/customizer/settings/page-layout.php:125
+msgid "Header Width"
+msgstr "Largura do cabeçalho"
+
+#: inc/customizer/typography/typography-customizer.php:56
+msgid "Heading"
+msgstr "Título"
+
+#: classified-listing/custom/functions.php:1011
+msgid "Height"
+msgstr "Altura"
+
+#. %s: listing owner name.
+#: classified-listing/emails/listing-contact-email-to-owner.php:27
+#, php-format
+msgid "Hi %s,"
+msgstr "Olá %s,"
+
+#: classified-listing/emails/listing-contact-email-to-admin.php:27
+msgid "Hi Administrator,"
+msgstr "Olá Administrador,"
+
+#: inc/customizer/settings/social-share-settings.php:39
+msgid "Hide Facebook?"
+msgstr "Ocultar Facebook?"
+
+#: inc/customizer/settings/social-share-settings.php:65
+msgid "Hide Linkedin?"
+msgstr "Ocultar LinkedIn?"
+
+#: inc/customizer/settings/social-share-settings.php:78
+msgid "Hide Pinterest?"
+msgstr "Ocultar Pinterest?"
+
+#: inc/customizer/settings/social-share-settings.php:104
+msgid "Hide Reddit?"
+msgstr "Ocultar Reddit?"
+
+#: inc/customizer/settings/social-share-settings.php:91
+msgid "Hide Tumblr?"
+msgstr "Ocultar Tumblr?"
+
+#: inc/customizer/settings/social-share-settings.php:52
+msgid "Hide Twitter?"
+msgstr "Ocultar Twitter?"
+
+#: inc/customizer/settings/social-share-settings.php:117
+msgid "Hide VK?"
+msgstr "Ocultar VK?"
+
+#: template-parts/header/site-logo.php:35
+#: classified-listing/myaccount/my-account.php:48
+#: classified-listing/myaccount/navigation.php:51
+msgid "Home"
+msgstr "Início"
+
+#: classified-listing/custom/functions.php:381
+msgid "hr"
+msgstr "h"
+
+#. Author URI of the theme
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#. URI of the theme
+msgid "https://www.radiustheme.com/demo/wordpress/themes/clproperty/"
+msgstr "https://www.radiustheme.com/demo/wordpress/themes/clproperty/"
+
+#: classified-listing/custom/cfg-amenities.php:33
+msgid "ID No"
+msgstr "Nº de ID"
+
+#: inc/customizer/settings/listings.php:69
+msgid "Individual Custom Field Group"
+msgstr "Grupo de campos personalizados individual"
+
+#: classified-listing/custom/listing-content-info.php:58
+msgid "Information"
+msgstr "Informações"
+
+#: inc/customizer/settings/contact-info.php:184
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/clproperty-mortgage-calculator.php:196
+msgid "Interest"
+msgstr "Juros"
+
+#: inc/clproperty-mortgage-calculator.php:120
+msgid "Interest Rate"
+msgstr "Taxa de juros"
+
+#: template-parts/content-none.php:25
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "Parece que não conseguimos encontrar o que procura. Talvez a pesquisa possa ajudar."
+
+#: inc/helper.php:465
+msgid "K"
+msgstr "K"
+
+#: inc/customizer/settings/single-post-layout.php:41
+#: inc/customizer/settings/listing-archive-layout.php:41
+#: inc/customizer/settings/agent-single-layout.php:41
+#: inc/customizer/settings/agent-archive-layout.php:41
+#: inc/customizer/settings/blog-layout.php:41
+#: inc/customizer/settings/store-archive-layout.php:41
+#: inc/customizer/settings/store-single-layout.php:41
+#: inc/customizer/settings/page-layout.php:41
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/helper.php:191 inc/customizer/settings/single-post-layout.php:106
+#: inc/customizer/settings/single-post-layout.php:212
+#: inc/customizer/settings/listing-archive-layout.php:106
+#: inc/customizer/settings/listing-archive-layout.php:212
+#: inc/customizer/settings/agent-single-layout.php:178
+#: inc/customizer/settings/agent-archive-layout.php:181
+#: inc/customizer/settings/blog-layout.php:106
+#: inc/customizer/settings/blog-layout.php:216
+#: inc/customizer/settings/error-layout.php:165
+#: inc/customizer/settings/store-archive-layout.php:106
+#: inc/customizer/settings/store-archive-layout.php:211
+#: inc/customizer/settings/listing-single-layout.php:63
+#: inc/customizer/settings/listing-single-layout.php:140
+#: inc/customizer/settings/store-single-layout.php:178
+#: inc/customizer/settings/page-layout.php:106
+#: inc/customizer/settings/page-layout.php:215
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: inc/customizer/settings/single-post-layout.php:213
+#: inc/customizer/settings/listing-archive-layout.php:213
+#: inc/customizer/settings/agent-single-layout.php:179
+#: inc/customizer/settings/agent-archive-layout.php:182
+#: inc/customizer/settings/blog-layout.php:107
+#: inc/customizer/settings/blog-layout.php:108
+#: inc/customizer/settings/blog-layout.php:109
+#: inc/customizer/settings/blog-layout.php:217
+#: inc/customizer/settings/error-layout.php:166
+#: inc/customizer/settings/store-archive-layout.php:212
+#: inc/customizer/settings/listing-single-layout.php:64
+#: inc/customizer/settings/listing-single-layout.php:65
+#: inc/customizer/settings/listing-single-layout.php:66
+#: inc/customizer/settings/listing-single-layout.php:141
+#: inc/customizer/settings/store-single-layout.php:179
+#: inc/customizer/settings/page-layout.php:107
+#: inc/customizer/settings/page-layout.php:108
+#: inc/customizer/settings/page-layout.php:109
+#: inc/customizer/settings/page-layout.php:216
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: inc/customizer/customizer.php:50
+msgid "Layout Settings"
+msgstr "Configurações do layout"
+
+#. %s: commenter name.
+#: classified-listing/single-rtcl_listing-reviews.php:69
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deixar uma resposta a %s"
+
+#: classified-listing/single-rtcl_listing-reviews.php:62
+msgid "Leave A Review"
+msgstr "Deixar uma avaliação"
+
+#: classified-listing/single-rtcl_listing-reviews.php:35
+msgid "Leave Feedback About This"
+msgstr "Deixar comentários sobre isto"
+
+#: inc/customizer/settings/single-post-layout.php:47
+#: inc/customizer/settings/listing-archive-layout.php:47
+#: inc/customizer/settings/agent-single-layout.php:47
+#: inc/customizer/settings/agent-archive-layout.php:47
+#: inc/customizer/settings/blog-layout.php:47
+#: inc/customizer/settings/store-archive-layout.php:47
+#: inc/customizer/settings/store-single-layout.php:47
+#: inc/customizer/settings/page-layout.php:47
+msgid "Left Sidebar"
+msgstr "Barra lateral esquerda"
+
+#: inc/lib/updater/theme-updater.php:38
+msgid "License Action"
+msgstr "Ação da licença"
+
+#: inc/lib/updater/theme-updater.php:53
+msgid "License is inactive."
+msgstr "A licença está inativa."
+
+#: inc/lib/updater/theme-updater.php:37
+msgid "License Key"
+msgstr "Chave de licença"
+
+#. %s: expiration date
+#: inc/lib/updater/theme-updater.php:50
+#, php-format
+msgid "License key expired %s."
+msgstr "A chave de licença expirou em %s."
+
+#: inc/lib/updater/theme-updater.php:51
+msgid "License key has expired."
+msgstr "A chave de licença expirou."
+
+#: inc/lib/updater/theme-updater.php:44
+msgid "License key is active."
+msgstr "A chave de licença está ativa."
+
+#: inc/lib/updater/theme-updater.php:54
+msgid "License key is disabled."
+msgstr "A chave de licença está desativada."
+
+#: inc/lib/updater/theme-updater.php:52
+msgid "License keys do not match."
+msgstr "As chaves de licença não correspondem."
+
+#: inc/lib/updater/theme-updater-admin.php:157
+msgid "License Status"
+msgstr "Estado da licença"
+
+#: inc/lib/updater/theme-updater.php:41 inc/lib/updater/theme-updater.php:56
+msgid "License status is unknown."
+msgstr "O estado da licença é desconhecido."
+
+#: inc/customizer/settings/general.php:73
+msgid "Light Logo"
+msgstr "Logo claro"
+
+#: inc/customizer/typography/typography-customizer.php:120
+#: inc/customizer/typography/typography-customizer.php:207
+#: inc/customizer/typography/typography-customizer.php:273
+#: inc/customizer/typography/typography-customizer.php:339
+#: inc/customizer/typography/typography-customizer.php:405
+#: inc/customizer/typography/typography-customizer.php:471
+#: inc/customizer/typography/typography-customizer.php:537
+#: inc/customizer/typography/typography-customizer.php:607
+msgid "Line Height"
+msgstr "Altura da linha"
+
+#: inc/customizer/typography/typography-customizer.php:121
+#: inc/customizer/typography/typography-customizer.php:208
+#: inc/customizer/typography/typography-customizer.php:274
+#: inc/customizer/typography/typography-customizer.php:340
+#: inc/customizer/typography/typography-customizer.php:406
+#: inc/customizer/typography/typography-customizer.php:472
+#: inc/customizer/typography/typography-customizer.php:538
+#: inc/customizer/typography/typography-customizer.php:608
+#: inc/customizer/typography/typography-customizer.php:674
+msgid "Line Height (px)"
+msgstr "Altura da linha (px)"
+
+#: inc/customizer/settings/contact-info.php:199
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: inc/customizer/settings/blog.php:50
+msgid "List"
+msgstr "Lista"
+
+#: inc/customizer/settings/listing-archive-layout.php:193
+#: inc/customizer/settings/agent-single-layout.php:210
+#: inc/customizer/settings/agent-archive-layout.php:213
+#: inc/customizer/settings/store-single-layout.php:210
+msgid "Listing Archive Content Padding Bottom(Use px unit after digit)"
+msgstr "Espaçamento inferior do conteúdo do arquivo de anúncios (use a unidade px após o número)"
+
+#: inc/customizer/settings/listing-archive-layout.php:177
+#: inc/customizer/settings/agent-single-layout.php:194
+#: inc/customizer/settings/agent-archive-layout.php:197
+#: inc/customizer/settings/store-single-layout.php:194
+msgid "Listing Archive Content Padding Top(Use px unit after digit)"
+msgstr "Espaçamento superior do conteúdo do arquivo de anúncios (use a unidade px após o número)"
+
+#: inc/customizer/settings/listings.php:471
+msgid "Listing Archive Excerpt Limit"
+msgstr "Limite do excerto do arquivo de anúncios"
+
+#: inc/customizer/customizer.php:174
+msgid "Listing Archive Layout"
+msgstr "Layout do arquivo de anúncios"
+
+#: inc/customizer/customizer.php:262
+msgid "Listing Archive Settings"
+msgstr "Configurações do arquivo de anúncios"
+
+#: inc/helper.php:155 inc/general.php:316
+msgid "Listing Archive Sidebar"
+msgstr "Barra lateral do arquivo de anúncios"
+
+#: inc/customizer/settings/listings.php:486
+msgid "Listing Author Button Text"
+msgstr "Texto do botão do autor do anúncio"
+
+#: inc/customizer/settings/listings.php:457
+msgid "Listing Author Meta"
+msgstr "Meta do autor do anúncio"
+
+#: inc/customizer/customizer.php:304
+msgid "Listing Common Settings"
+msgstr "Configurações comuns dos anúncios"
+
+#: inc/customizer/settings/agency.php:188
+msgid "Listing Count Visibility"
+msgstr "Visibilidade da contagem de anúncios"
+
+#: classified-listing/listing-form/information.php:36
+msgid "Listing Information"
+msgstr "Informações do anúncio"
+
+#. Name of the template
+#: templates/listing-map.php:2
+msgid "Listing Map"
+msgstr "Mapa de anúncios"
+
+#: inc/customizer/settings/listings.php:572
+msgid "Listing max price "
+msgstr "Preço máximo do anúncio "
+
+#: inc/customizer/settings/listings.php:554
+msgid "Listing min price "
+msgstr "Preço mínimo do anúncio "
+
+#: classified-listing/listing/loop/orderby.php:26
+msgid "Listing order"
+msgstr "Ordem dos anúncios"
+
+#: inc/customizer/settings/listings.php:383
+msgid "Listing owner widget title"
+msgstr "Título do widget do proprietário do anúncio"
+
+#: inc/customizer/settings/listings.php:538
+msgid "Listing Per Page"
+msgstr "Anúncios por página"
+
+#: inc/customizer/customizer.php:66
+msgid "Listing Settings"
+msgstr "Configurações dos anúncios"
+
+#: inc/customizer/settings/listings.php:88
+msgid "Listing Sidebar Visibility"
+msgstr "Visibilidade da barra lateral dos anúncios"
+
+#: inc/customizer/settings/listing-single-layout.php:172
+msgid "Listing Single Content Padding Bottom(Use px unit after digit)"
+msgstr "Espaçamento inferior do conteúdo do anúncio individual (use a unidade px após o número)"
+
+#: inc/customizer/settings/listing-single-layout.php:156
+msgid "Listing Single Content Padding Top(Use px unit after digit)"
+msgstr "Espaçamento superior do conteúdo do anúncio individual (use a unidade px após o número)"
+
+#: inc/customizer/customizer.php:182
+msgid "Listing Single Layout"
+msgstr "Layout do anúncio individual"
+
+#: inc/customizer/customizer.php:283
+msgid "Listing Single Settings"
+msgstr "Configurações do anúncio individual"
+
+#: inc/customizer/settings/listings.php:501
+msgid "Listing Slider Autoplay"
+msgstr "Reprodução automática do slider de anúncios"
+
+#: inc/customizer/settings/listings.php:517
+msgid "Listing Slider Autoplay Delay"
+msgstr "Atraso da reprodução automática do slider de anúncios"
+
+#: inc/customizer/settings/listings.php:366
+msgid "Listing Slider Navigation"
+msgstr "Navegação do slider de anúncios"
+
+#: inc/customizer/settings/listings.php:421
+msgid "Listing type prefix text"
+msgstr "Texto do prefixo do tipo de anúncio"
+
+#: classified-listing/content-agent.php:101
+msgid "Listing:"
+msgstr "Anúncio:"
+
+#: inc/clproperty-mortgage-calculator.php:171
+msgid "Loan Amount"
+msgstr "Montante do empréstimo"
+
+#: inc/clproperty-mortgage-calculator.php:137
+msgid "Loan Term"
+msgstr "Prazo do empréstimo"
+
+#: inc/customizer/settings/contact-info.php:99
+msgid "Location Text"
+msgstr "Texto da localização"
+
+#: inc/lib/updater/lc-helper.php:135
+msgid "Log in to your account at RadiusTheme.com."
+msgstr "Inicie sessão na sua conta em RadiusTheme.com."
+
+#: classified-listing/global/form-login-old.php:20
+#: classified-listing/global/form-login-old.php:46
+msgid "Login"
+msgstr "Entrar"
+
+#: inc/customizer/settings/general.php:125
+msgid "Logo max width / max height"
+msgstr "Largura máx. / altura máx. do logo"
+
+#: inc/helper.php:466
+msgid "M"
+msgstr "M"
+
+#: inc/customizer/settings/general.php:199
+msgid "Magnific Popup"
+msgstr "Magnific Popup"
+
+#: inc/customizer/settings/general.php:42
+msgid "Main Logo"
+msgstr "Logo principal"
+
+#: inc/customizer/settings/listings.php:525
+msgid "Map Listing Archive Page"
+msgstr "Página de arquivo de anúncios no mapa"
+
+#: classified-listing/custom/single-listing-accordion.php:128
+msgid "Map Location"
+msgstr "Localização no mapa"
+
+#: classified-listing/listing-form/information.php:120
+msgid "Max Price"
+msgstr "Preço máximo"
+
+#: classified-listing/custom/fb_cfg_filter_fields.php:269
+msgid "Max."
+msgstr "Máx."
+
+#: classified-listing/claim/claim-popup-form.php:70
+msgid "Maximum file size 5 MB, only pdf file allowed."
+msgstr "Tamanho máximo do ficheiro 5 MB, apenas ficheiros PDF permitidos."
+
+#: classified-listing/custom/functions.php:1026
+msgid "Membership"
+msgstr "Subscrição"
+
+#: inc/customizer/typography/typography-customizer.php:64
+#: inc/customizer/typography/typography-customizer.php:570
+msgid "Menu"
+msgstr "Menu"
+
+#: inc/customizer/settings/color.php:209
+msgid "Menu Font Color"
+msgstr "Cor da fonte do menu"
+
+#: inc/customizer/settings/color.php:239
+msgid "Menu Font Hover Color"
+msgstr "Cor hover da fonte do menu"
+
+#: inc/customizer/settings/color.php:283
+msgid "Menu Icon Color"
+msgstr "Cor do ícone do menu"
+
+#: classified-listing/store/contact-form.php:40
+msgid "Message"
+msgstr "Mensagem"
+
+#: classified-listing/content-single-store.php:152
+msgid "Message Store Owner"
+msgstr "Mensagem ao proprietário da loja"
+
+#: classified-listing/listing/email-to-seller-form.php:34
+msgid "Message*"
+msgstr "Mensagem*"
+
+#: classified-listing/custom/listing-heading.php:199
+msgid "Message... "
+msgstr "Mensagem... "
+
+#: classified-listing/custom/fb_cfg_filter_fields.php:256
+msgid "Min."
+msgstr "Mín."
+
+#: classified-listing/custom/functions.php:378
+msgid "mo"
+msgstr "mês"
+
+#: inc/customizer/settings/header.php:255
+msgid "Mobile Header Topbar"
+msgstr "Barra superior do cabeçalho móvel"
+
+#: inc/customizer/settings/general.php:99
+msgid "Mobile Logo"
+msgstr "Logo móvel"
+
+#: inc/clproperty-mortgage-calculator.php:166
+msgid "Monthly Payment"
+msgstr "Pagamento mensal"
+
+#: classified-listing/agent/ad-listing.php:115
+#: classified-listing/agent/ad-listing.php:189
+msgid "More Listing"
+msgstr "Mais anúncios"
+
+#: inc/clproperty-mortgage-calculator.php:44
+msgid "Mortgage Calculator"
+msgstr "Calculadora de hipoteca"
+
+#: classified-listing/agent/ad-listing.php:53
+msgid "My Listing"
+msgstr "Os meus anúncios"
+
+#: comments.php:65 classified-listing/single-rtcl_listing-reviews.php:74
+#: classified-listing/claim/claim-popup-form.php:36
+msgid "Name"
+msgstr "Nome"
+
+#: classified-listing/listing/email-to-seller-form.php:19
+msgid "Name *"
+msgstr "Nome *"
+
+#: inc/lib/updater/lc-helper.php:144
+msgid "Need a hand?"
+msgstr "Precisa de ajuda?"
+
+#: classified-listing/custom/functions.php:192
+msgid "New Agency"
+msgstr "Nova agência"
+
+#: inc/customizer/settings/newsletter.php:82
+msgid "Newsletter Building Image"
+msgstr "Imagem do edifício da newsletter"
+
+#: inc/customizer/customizer.php:245
+msgid "Newsletter Section"
+msgstr "Secção da newsletter"
+
+#: inc/customizer/settings/newsletter.php:54
+#: inc/customizer/settings/newsletter.php:68
+msgid "Newsletter Title"
+msgstr "Título da newsletter"
+
+#: template-parts/content-single-pagination.php:43
+msgid "Next Post"
+msgstr "Publicação seguinte"
+
+#: inc/customizer/settings/newsletter.php:91
+#: inc/customizer/settings/error.php:47
+#: inc/customizer/settings/breadcrumb.php:68
+#: inc/customizer/settings/general.php:51
+#: inc/customizer/settings/general.php:82
+#: inc/customizer/settings/general.php:108
+#: inc/customizer/settings/general.php:182
+msgid "No file selected"
+msgstr "Nenhum ficheiro selecionado"
+
+#: classified-listing/custom/functions.php:359
+msgid "No Property"
+msgstr "Sem propriedade"
+
+#: classified-listing/custom/functions.php:197
+msgid "No stores found"
+msgstr "Nenhuma loja encontrada"
+
+#: classified-listing/custom/functions.php:198
+msgid "No stores found in Trash"
+msgstr "Nenhuma loja encontrada no lixo"
+
+#: inc/lib/updater/theme-updater-admin.php:161
+msgid "Not Activated"
+msgstr "Não ativado"
+
+#: inc/lib/updater/lc-helper.php:78
+msgid "Not activated"
+msgstr "Não ativado"
+
+#: classified-listing/single-rtcl_listing-reviews.php:103
+msgid "Not that bad"
+msgstr "Não tão mau"
+
+#: classified-listing/custom/functions.php:1112
+msgid ""
+"Number of ads to post as free with out membership, if membership is enabled."
+"<br>If this field is blank dy default it will be 3"
+msgstr ""
+
+#: classified-listing/custom/functions.php:741
+msgid "Number of business in per category"
+msgstr "Número de negócios por categoria"
+
+#: classified-listing/custom/functions.php:1109
+msgid "Number of free ads"
+msgstr "Número de anúncios gratuitos"
+
+#: inc/general.php:56
+msgid "open"
+msgstr "aberto"
+
+#: inc/lib/updater/lc-helper.php:139
+msgid "Open RadiusTheme account"
+msgstr "Abrir conta RadiusTheme"
+
+#: classified-listing/store/custom/store-info.php:87
+msgid "Opening Hours:"
+msgstr "Horário de funcionamento:"
+
+#: classified-listing/store/custom/store-info.php:128
+msgid "Other's Date"
+msgstr "Outra data"
+
+#: classified-listing/custom/functions.php:688
+msgid "Others Features"
+msgstr "Outras características"
+
+#: classified-listing/custom/functions.php:339
+msgid "Our Latest Properties"
+msgstr "As nossas últimas propriedades"
+
+#: classified-listing/store/ad-listing.php:38
+msgid "Our Listings"
+msgstr "Os nossos anúncios"
+
+#: classified-listing/content-single-store.php:111
+msgid "Our Reliable Agents"
+msgstr "Os nossos agentes de confiança"
+
+#: inc/customizer/settings/listings.php:176
+msgid "Overview text"
+msgstr "Texto da visão geral"
+
+#: inc/customizer/settings/listings.php:159
+msgid "Overview Visibility"
+msgstr "Visibilidade da visão geral"
+
+#: inc/customizer/settings/color.php:89
+msgid "Page Color"
+msgstr "Cor da página"
+
+#: inc/customizer/settings/page-layout.php:196
+msgid "Page Content Padding Bottom"
+msgstr "Espaçamento inferior do conteúdo da página"
+
+#: inc/customizer/settings/page-layout.php:180
+msgid "Page Content Padding Top "
+msgstr "Espaçamento superior do conteúdo da página "
+
+#: inc/customizer/customizer.php:158
+msgid "Pages Layout"
+msgstr "Layout das páginas"
+
+#: inc/customizer/settings/blog.php:158
+msgid "Pagination"
+msgstr "Paginação"
+
+#: classified-listing/listing-form/information.php:259
+msgid "Panorama Image"
+msgstr "Imagem panorâmica"
+
+#: classified-listing/custom/functions.php:768
+msgid "Panorama Settings"
+msgstr "Configurações do panorama"
+
+#: classified-listing/listing-form/information.php:189
+#: classified-listing/listing-form/information.php:235
+msgid "Parking"
+msgstr "Estacionamento"
+
+#: classified-listing/global/form-login-old.php:35
+#: classified-listing/global/form-login-old.php:96
+msgid "Password"
+msgstr "Palavra-passe"
+
+#: classified-listing/single-rtcl_listing-reviews.php:100
+msgid "Perfect"
+msgstr "Perfeito"
+
+#: classified-listing/store/custom/store-info.php:111
+msgid "Permanently Close"
+msgstr "Fechado permanentemente"
+
+#: classified-listing/content-single-agent.php:96
+#: classified-listing/listing/author-content.php:70
+#: classified-listing/claim/claim-popup-form.php:47
+#: inc/customizer/settings/contact-info.php:55
+msgid "Phone"
+msgstr "Telefone"
+
+#: classified-listing/store/contact-form.php:33
+msgid "Phone number"
+msgstr "Número de telefone"
+
+#: inc/customizer/settings/contact-info.php:113
+msgid "Phone Text"
+msgstr "Texto do telefone"
+
+#: classified-listing/listing/email-to-seller-form.php:29
+msgid "Phone*"
+msgstr "Telefone*"
+
+#: classified-listing/store/custom/store-info.php:47
+msgid "Phone: "
+msgstr "Telefone: "
+
+#: inc/customizer/settings/contact-info.php:229
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/lib/updater/theme-updater-admin.php:503
+#, php-format
+msgid "Please %s to get update, full functionalities and customer support."
+msgstr "Por favor %s para obter atualizações, funcionalidades completas e suporte ao cliente."
+
+#. %s: login page URL.
+#: classified-listing/custom/listing-content-info.php:92
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr "Por favor <a href='%s'>inicie sessão</a> para ver as informações do vendedor."
+
+#: inc/lib/updater/lc-utility.php:546
+msgid "Please activate your theme license to install demo data."
+msgstr "Ative a licença do tema para instalar dados de demonstração."
+
+#: inc/lib/updater/lc-utility.php:559 inc/lib/updater/lc-utility.php:576
+msgid "Please activate your theme license to use this plugin."
+msgstr "Ative a licença do tema para usar este plugin."
+
+#: classified-listing/custom/listing-search-banner.php:27
+msgid "Please choose at least one or more fields for showing the widget"
+msgstr "Escolha pelo menos um ou mais campos para mostrar o widget"
+
+#: inc/customizer/customizer.php:230
+msgid "Post Details Settings"
+msgstr "Configurações dos detalhes da publicação"
+
+#: classified-listing/custom/functions.php:185
+msgctxt "Post Type General Name"
+msgid "Agencies"
+msgstr "Agências"
+
+#: classified-listing/custom/functions.php:186
+msgctxt "Post Type Singular Name"
+msgid "Agency"
+msgstr "Agência"
+
+#: inc/customizer/settings/general.php:158
+msgid "Preloader"
+msgstr "Pré-carregamento"
+
+#: inc/customizer/settings/general.php:173
+msgid "Preloader Image"
+msgstr "Imagem de pré-carregamento"
+
+#: template-parts/content-single-pagination.php:32
+msgid "Previous Post"
+msgstr "Publicação anterior"
+
+#: inc/general.php:92 classified-listing/listing-form/information.php:108
+#: classified-listing/custom/listing-search-widget.php:170
+msgid "Price"
+msgstr "Preço"
+
+#: classified-listing/custom/listing-search-banner.php:241
+msgid "Price Range"
+msgstr "Faixa de preço"
+
+#. %1$s: price from, %2$s: price to.
+#: classified-listing/custom/functions.php:120
+#, php-format
+msgctxt "Price range: from-to"
+msgid ""
+"<div class=\"rtcl-price-range\"><span class=\"price-from\">%1$s</span> <span "
+"class=\"dash\">&ndash;</span> <span class=\"price-to\">%2$s</span></div>"
+msgstr ""
+
+#: classified-listing/listing-form/information.php:89
+msgid "Price Type"
+msgstr "Tipo de preço"
+
+#: classified-listing/custom/functions.php:620
+msgid "Price:"
+msgstr "Preço:"
+
+#: classified-listing/listing-form/information.php:64
+msgid "Pricing:"
+msgstr "Preços:"
+
+#: inc/general.php:245
+msgid "Primary"
+msgstr "Primário"
+
+#: inc/customizer/settings/color.php:44
+msgid "Primary Color"
+msgstr "Cor primária"
+
+#: inc/clproperty-mortgage-calculator.php:192
+msgid "Principal"
+msgstr "Capital"
+
+#: classified-listing/checkout/membership-promotions.php:24
+msgid "Promotions"
+msgstr "Promoções"
+
+#: classified-listing/checkout/membership-promotions.php:34
+msgid "Promotions:"
+msgstr "Promoções:"
+
+#: inc/customizer/settings/listings.php:47
+msgid "Property Details Style"
+msgstr "Estilo dos detalhes da propriedade"
+
+#: inc/clproperty-mortgage-calculator.php:78
+msgid "Property Price"
+msgstr "Preço da propriedade"
+
+#: classified-listing/custom/listing-search-widget.php:27
+msgid "Property Type"
+msgstr "Tipo de propriedade"
+
+#: classified-listing/custom/single-listing-accordion.php:94
+msgid "Property Video"
+msgstr "Vídeo da propriedade"
+
+#: inc/helper.php:469
+msgid "Qa"
+msgstr "Qa"
+
+#: inc/helper.php:470
+msgid "Qi"
+msgstr "Qi"
+
+#: classified-listing/listing/user-information.php:51
+#: classified-listing/custom/listing-content-info.php:150
+msgid "Quick Chat"
+msgstr "Chat rápido"
+
+#: classified-listing/custom/functions.php:744
+#: classified-listing/custom/listing-search-banner.php:204
+msgid "Radius"
+msgstr "Raio"
+
+#: classified-listing/custom/listing-search-widget.php:160
+msgid "Radius km "
+msgstr "Raio em km "
+
+#: classified-listing/custom/listing-search-widget.php:160
+msgid "Radius Miles "
+msgstr "Raio em milhas "
+
+#: classified-listing/custom/listing-search-widget.php:135
+msgid "Radius Search"
+msgstr "Pesquisa por raio"
+
+#. Author of the theme
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: classified-listing/single-rtcl_listing-reviews.php:99
+msgid "Rate&hellip;"
+msgstr "Avaliar&hellip;"
+
+#: classified-listing/custom/functions.php:756
+msgid "Rating"
+msgstr "Avaliação"
+
+#: template-parts/content.php:67 template-parts/content-alt.php:86
+msgid "Read More"
+msgstr "Ler mais"
+
+#: inc/general.php:480
+msgid "read more ..."
+msgstr "ler mais ..."
+
+#: template-parts/content-single.php:74 template-parts/content-single.php:75
+#: template-parts/content.php:51 template-parts/content.php:51
+#: template-parts/content-alt.php:74
+msgid "Reading Time"
+msgstr "Tempo de leitura"
+
+#: template-parts/content-none.php:18
+msgid "Ready to publish your first post?"
+msgstr "Pronto para publicar a sua primeira publicação?"
+
+#: classified-listing/global/form-login-old.php:67
+#: classified-listing/global/form-login-old.php:109
+msgid "Register"
+msgstr "Registar"
+
+#: template-parts/related-posts.php:47
+msgid "Related Blogs"
+msgstr "Blogs relacionados"
+
+#: classified-listing/listing/related-listings.php:32
+msgid "Related Properties"
+msgstr "Propriedades relacionadas"
+
+#: classified-listing/checkout/membership-promotions.php:25
+msgid "Remaining ads"
+msgstr "Anúncios restantes"
+
+#: classified-listing/checkout/membership-promotions.php:44
+msgid "Remaining ads:"
+msgstr "Anúncios restantes:"
+
+#: classified-listing/global/form-login-old.php:51
+msgid "Remember Me"
+msgstr "Lembrar-me"
+
+#: inc/customizer/settings/newsletter.php:90
+#: inc/customizer/settings/error.php:46
+#: inc/customizer/settings/breadcrumb.php:67
+#: inc/customizer/settings/general.php:50
+#: inc/customizer/settings/general.php:81
+#: inc/customizer/settings/general.php:107
+#: inc/customizer/settings/general.php:181
+msgid "Remove"
+msgstr "Remover"
+
+#: inc/customizer/settings/general.php:245
+msgid "Remove Admin Bar"
+msgstr "Remover barra de administração"
+
+#: classified-listing/listing-form/information.php:203
+msgid "Remove Image"
+msgstr "Remover imagem"
+
+#: inc/customizer/settings/listings.php:403
+msgid "Remove Listing Type Prefix (Eg. For)"
+msgstr "Remover prefixo do tipo de anúncio (ex. Para)"
+
+#: inc/lib/updater/theme-updater.php:42
+msgid "Renew?"
+msgstr "Renovar?"
+
+#: classified-listing/custom/functions.php:1128
+msgid "Renewal days for Free ads number"
+msgstr "Dias de renovação para o número de anúncios gratuitos"
+
+#: comments.php:32
+msgid "Reply"
+msgstr "Responder"
+
+#: classified-listing/custom/listing-heading.php:190
+msgid "Report Abuse"
+msgstr "Denunciar abuso"
+
+#: classified-listing/custom/listing-search-widget.php:269
+#: classified-listing/widgets/search/vertical.php:58
+msgid "Reset"
+msgstr "Redefinir"
+
+#: classified-listing/custom/functions.php:757
+msgid "Review Count"
+msgstr "Contagem de avaliações"
+
+#: classified-listing/single-rtcl_listing-reviews.php:96
+msgid "Review title"
+msgstr "Título da avaliação"
+
+#: classified-listing/single-rtcl_listing-reviews.php:52
+#: classified-listing/store/store-link-to-user-information.php:54
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: inc/customizer/settings/single-post-layout.php:55
+#: inc/customizer/settings/listing-archive-layout.php:55
+#: inc/customizer/settings/agent-single-layout.php:55
+#: inc/customizer/settings/agent-archive-layout.php:55
+#: inc/customizer/settings/blog-layout.php:55
+#: inc/customizer/settings/store-archive-layout.php:55
+#: inc/customizer/settings/store-single-layout.php:55
+#: inc/customizer/settings/page-layout.php:55
+msgid "Right Sidebar"
+msgstr "Barra lateral direita"
+
+#: inc/lib/updater/theme-updater-admin.php:181
+msgid "Save Changes"
+msgstr "Guardar alterações"
+
+#: classified-listing/custom/functions.php:658
+#: classified-listing/custom/listing-search-banner.php:216
+msgid "Search"
+msgstr "Pesquisar"
+
+#: classified-listing/custom/functions.php:196
+msgid "Search Agency"
+msgstr "Pesquisar agência"
+
+#: inc/general.php:507
+msgid "Search Results for : "
+msgstr "Resultados da pesquisa para: "
+
+#: inc/customizer/settings/color.php:59
+msgid "Secondary Color"
+msgstr "Cor secundária"
+
+#: classified-listing/custom/functions.php:777
+#: classified-listing/custom/functions.php:806
+msgid "Section Label"
+msgstr "Rótulo da secção"
+
+#: classified-listing/listing-form/category.php:57
+#: classified-listing/widgets/search/vertical.php:33
+#: classified-listing/widgets/search/vertical.php:43
+msgid "Select a category"
+msgstr "Selecione uma categoria"
+
+#: inc/customizer/settings/listings.php:71
+msgid "Select a group to show in listing details page as different section"
+msgstr "Selecione um grupo para mostrar na página de detalhes do anúncio como secção diferente"
+
+#: classified-listing/custom/listing-search-widget.php:139
+msgid "Select a location"
+msgstr "Selecione uma localização"
+
+#: classified-listing/listing-form/category.php:27
+msgid "Select a type"
+msgstr "Selecione um tipo"
+
+#: classified-listing/listing-form/yelp-category.php:24
+#: classified-listing/custom/functions.php:535
+#: classified-listing/custom/listing-search-banner.php:22
+msgid "Select Category"
+msgstr "Selecionar categoria"
+
+#: inc/customizer/settings/newsletter.php:87
+#: inc/customizer/settings/newsletter.php:92
+#: inc/customizer/settings/error.php:43 inc/customizer/settings/error.php:48
+#: inc/customizer/settings/breadcrumb.php:64
+#: inc/customizer/settings/breadcrumb.php:69
+#: inc/customizer/settings/general.php:52
+#: inc/customizer/settings/general.php:83
+#: inc/customizer/settings/general.php:109
+#: inc/customizer/settings/general.php:183
+msgid "Select File"
+msgstr "Selecionar ficheiro"
+
+#: inc/customizer/settings/general.php:178
+msgid "Select Image"
+msgstr "Selecionar imagem"
+
+#: classified-listing/custom/functions.php:534
+#: classified-listing/custom/listing-search-banner.php:20
+msgid "Select Location"
+msgstr "Selecionar localização"
+
+#: inc/customizer/settings/general.php:47
+#: inc/customizer/settings/general.php:78
+#: inc/customizer/settings/general.php:104
+msgid "Select Logo"
+msgstr "Selecionar logo"
+
+#: inc/customizer/settings/listings.php:271
+msgid "Select Owner/Store info"
+msgstr "Selecionar info do proprietário/loja"
+
+#: inc/customizer/settings/listings.php:49
+msgid "Select property details page style"
+msgstr "Selecione o estilo da página de detalhes da propriedade"
+
+#: inc/customizer/settings/blog.php:45
+msgid "Select the blog style"
+msgstr "Selecione o estilo do blog"
+
+#: inc/customizer/settings/agent-archive-layout.php:42
+msgid "Select the default template layout for agent archive"
+msgstr "Selecione o layout padrão para o arquivo de agentes"
+
+#: inc/customizer/settings/agent-single-layout.php:42
+msgid "Select the default template layout for agent details page"
+msgstr "Selecione o layout padrão para a página de detalhes do agente"
+
+#: inc/customizer/settings/blog-layout.php:42
+msgid "Select the default template layout for blog archive"
+msgstr "Selecione o layout padrão para o arquivo do blog"
+
+#: inc/customizer/settings/listing-archive-layout.php:42
+msgid "Select the default template layout for listing archive"
+msgstr "Selecione o layout padrão para o arquivo de anúncios"
+
+#: inc/customizer/settings/page-layout.php:42
+msgid "Select the default template layout for Pages"
+msgstr "Selecione o layout padrão para as páginas"
+
+#: inc/customizer/settings/single-post-layout.php:42
+msgid "Select the default template layout for single post"
+msgstr "Selecione o layout padrão para a publicação individual"
+
+#: inc/customizer/settings/store-archive-layout.php:42
+msgid "Select the default template layout for store archive"
+msgstr "Selecione o layout padrão para o arquivo da loja"
+
+#: inc/customizer/settings/store-single-layout.php:42
+msgid "Select the default template layout for store details page"
+msgstr "Selecione o layout padrão para a página de detalhes da loja"
+
+#: inc/customizer/settings/header.php:45 inc/customizer/settings/footer.php:43
+msgid "Select the header style"
+msgstr "Selecione o estilo do cabeçalho"
+
+#: classified-listing/custom/functions.php:1167
+msgid ""
+"Select the specific category for free ads, Leave it un select to allow any "
+"category."
+msgstr "Selecione a categoria específica para anúncios gratuitos. Deixe sem selecionar para permitir qualquer categoria."
+
+#: classified-listing/custom/functions.php:536
+#: classified-listing/custom/listing-search-banner.php:21
+msgid "Select Type"
+msgstr "Selecionar tipo"
+
+#: classified-listing/listing/email-to-seller-form.php:42
+#: classified-listing/store/contact-form.php:49
+msgid "Send Message"
+msgstr "Enviar mensagem"
+
+#: classified-listing/content-single-agent.php:83
+msgid "Service Areas"
+msgstr "Áreas de serviço"
+
+#: classified-listing/custom/functions.php:1616
+msgid "Share"
+msgstr "Partilhar"
+
+#: template-parts/content-single.php:96
+msgid "Share This Post:"
+msgstr "Partilhe esta publicação:"
+
+#: classified-listing/custom/functions.php:774
+msgid "Show 360 degree view in listing details page."
+msgstr "Mostrar vista de 360 graus na página de detalhes do anúncio."
+
+#: inc/customizer/settings/agency.php:43
+msgid "Show Ad Count"
+msgstr "Mostrar contagem de anúncios"
+
+#: inc/customizer/settings/agency.php:139
+msgid "Show Agency Email"
+msgstr "Mostrar e-mail da agência"
+
+#: inc/customizer/settings/agency.php:107
+msgid "Show Agency Excerpt"
+msgstr "Mostrar excerto da agência"
+
+#: inc/customizer/settings/agency.php:91
+msgid "Show Agency Location"
+msgstr "Mostrar localização da agência"
+
+#: inc/customizer/settings/agency.php:123
+msgid "Show Agency Phone"
+msgstr "Mostrar telefone da agência"
+
+#: inc/customizer/settings/agency.php:75
+msgid "Show Agency Ratings"
+msgstr "Mostrar avaliações da agência"
+
+#: inc/customizer/settings/agency.php:171
+msgid "Show Agency Social Share"
+msgstr "Mostrar partilha social da agência"
+
+#: inc/customizer/settings/agency.php:59
+msgid "Show Agency Views"
+msgstr "Mostrar visualizações da agência"
+
+#: inc/customizer/settings/agency.php:155
+msgid "Show Agency Website Link"
+msgstr "Mostrar link do site da agência"
+
+#: inc/customizer/settings/agent.php:91
+msgid "Show Agent Email"
+msgstr "Mostrar e-mail do agente"
+
+#: inc/customizer/settings/agent.php:75
+msgid "Show Agent Phone"
+msgstr "Mostrar telefone do agente"
+
+#: inc/customizer/settings/agent.php:59
+msgid "Show Agent Ratings"
+msgstr "Mostrar avaliações do agente"
+
+#: inc/customizer/settings/listings.php:253
+msgid "Show Button Area"
+msgstr "Mostrar área do botão"
+
+#: classified-listing/custom/functions.php:787
+msgid "Show Controls"
+msgstr "Mostrar controlos"
+
+#: inc/customizer/settings/header.php:95
+msgid "Show header at the top when scrolling down"
+msgstr "Mostrar cabeçalho no topo ao descer a página"
+
+#: inc/customizer/settings/agent.php:43
+msgid "Show Listing Count"
+msgstr "Mostrar contagem de anúncios"
+
+#: inc/customizer/settings/listings.php:441
+msgid "Show Listing Custom Field"
+msgstr "Mostrar campo personalizado do anúncio"
+
+#: classified-listing/custom/functions.php:1941
+msgid "Show mortgage calculator on listing detail page."
+msgstr "Mostrar calculadora de hipoteca na página de detalhes do anúncio."
+
+#: inc/customizer/settings/newsletter.php:41
+msgid "Show Newsletter ?"
+msgstr "Mostrar newsletter?"
+
+#: inc/customizer/settings/listings.php:254
+msgid "Show or hide button area from single listing page header"
+msgstr "Mostrar ou ocultar área do botão do cabeçalho da página do anúncio"
+
+#: inc/customizer/settings/listings.php:367
+msgid "Show or hide button area from single listing single page"
+msgstr "Mostrar ou ocultar área do botão da página do anúncio"
+
+#: inc/customizer/settings/listings.php:442
+msgid "Show or hide listing custom fields from listing archive page"
+msgstr "Mostrar ou ocultar campos personalizados na página de arquivo de anúncios"
+
+#: inc/customizer/settings/listings.php:235
+msgid "Show or hide related listing from listing details page"
+msgstr "Mostrar ou ocultar anúncios relacionados na página de detalhes"
+
+#: inc/customizer/settings/listings.php:331
+msgid "Show or hide Store/Owner Widget Email"
+msgstr "Mostrar ou ocultar e-mail do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:349
+msgid "Show or hide Store/Owner Widget Rating"
+msgstr "Mostrar ou ocultar avaliação do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:295
+msgid "Show or hide Store/Owner Widget Title"
+msgstr "Mostrar ou ocultar título do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:313
+msgid "Show or hide Store/Owner Widget What's App Number"
+msgstr "Mostrar ou ocultar número WhatsApp do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:276
+msgid "Show Owner Info"
+msgstr "Mostrar info do proprietário"
+
+#: classified-listing/custom/functions.php:1914
+msgid "Show printer button on listing detail page."
+msgstr "Mostrar botão de impressão na página de detalhes do anúncio."
+
+#: inc/customizer/settings/listings.php:234
+msgid "Show Related Listing"
+msgstr "Mostrar anúncios relacionados"
+
+#: inc/customizer/settings/listings.php:277
+msgid "Show Store Info"
+msgstr "Mostrar info da loja"
+
+#: inc/customizer/settings/listings.php:273
+msgid "Show Store or Owner info on Details page"
+msgstr "Mostrar info da loja ou proprietário na página de detalhes"
+
+#: classified-listing/custom/functions.php:729
+msgid "Show yelp review in listing details page."
+msgstr "Mostrar avaliação Yelp na página de detalhes do anúncio."
+
+#: classified-listing/listing/loop/result-count.php:19
+msgid "Showing the single Listing"
+msgstr "A mostrar o anúncio individual"
+
+#: inc/helper.php:154 inc/general.php:253
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: classified-listing/listing/related-listings.php:29
+msgid "Similar Properties"
+msgstr "Propriedades semelhantes"
+
+#: classified-listing/custom/functions.php:1067
+msgid "Single agency only for membership"
+msgstr "Agência individual apenas para membros"
+
+#: inc/customizer/settings/single-post-layout.php:175
+msgid "Single Post Content Padding Bottom(Use px unit after digit)"
+msgstr "Espaçamento inferior do conteúdo da publicação individual (use a unidade px após o número)"
+
+#: inc/customizer/settings/single-post-layout.php:159
+msgid "Single Post Content Padding Top(Use px unit after digit)"
+msgstr "Espaçamento superior do conteúdo da publicação individual (use a unidade px após o número)"
+
+#: inc/customizer/customizer.php:150
+msgid "Single Post Layout"
+msgstr "Layout da publicação individual"
+
+#: inc/general.php:283
+msgid "Single Property"
+msgstr "Propriedade individual"
+
+#: classified-listing/custom/functions.php:1070
+msgid ""
+"Single sgency page will display only for valid membership owner. If enable, "
+"sgency single page will be only visible until membership is active."
+msgstr ""
+
+#: inc/customizer/customizer.php:113
+msgid "Site Color"
+msgstr "Cor do site"
+
+#: inc/lib/updater/theme-updater.php:55
+msgid "Site is inactive."
+msgstr "O site está inativo."
+
+#: classified-listing/listing-form/information.php:185
+#: classified-listing/listing-form/information.php:233
+#: classified-listing/custom/floor-plan.php:117
+msgid "Size"
+msgstr "Tamanho"
+
+#: header.php:27
+msgid "Skip to content"
+msgstr "Ir para o conteúdo"
+
+#: inc/customizer/settings/contact-info.php:244
+msgid "Skype"
+msgstr "Skype"
+
+#: classified-listing/content-single-store.php:68
+#: classified-listing/custom/functions.php:1622
+msgid "Social Share"
+msgstr "Partilha social"
+
+#: inc/customizer/customizer.php:252
+msgid "Social Share Settings"
+msgstr "Configurações de partilha social"
+
+#: inc/customizer/settings/contact-info.php:127
+msgid "Social Text"
+msgstr "Texto social"
+
+#: classified-listing/custom/author-ajax-listing.php:44
+#: classified-listing/listing/loop/thumbnail.php:99
+msgid "Sold Out"
+msgstr "Esgotado"
+
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Desculpe, mas nada corresponde aos seus termos de pesquisa. Por favor, tente novamente com palavras-chave diferentes."
+
+#: classified-listing/listing/loop/orderby.php:25
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: classified-listing/content-single-agent.php:89
+msgid "Specialties"
+msgstr "Especialidades"
+
+#: classified-listing/custom/functions.php:382
+msgid "sqft"
+msgstr "m²"
+
+#: inc/customizer/settings/header.php:94
+msgid "Sticky Header"
+msgstr "Cabeçalho fixo"
+
+#: inc/customizer/settings/general.php:214
+msgid "Sticky Sidebar"
+msgstr "Barra lateral fixa"
+
+#: inc/customizer/settings/store-archive-layout.php:174
+msgid "Store Archive Content Padding Bottom(Use px unit after digit)"
+msgstr "Espaçamento inferior do conteúdo do arquivo da loja (use a unidade px após o número)"
+
+#: inc/customizer/settings/store-archive-layout.php:158
+msgid "Store Archive Content Padding Top(Use px unit after digit)"
+msgstr "Espaçamento superior do conteúdo do arquivo da loja (use a unidade px após o número)"
+
+#: classified-listing/agent/ad-listing.php:127
+msgid "Store Listing"
+msgstr "Anúncios da loja"
+
+#: classified-listing/store/custom/store-info.php:135
+msgid "Store Opening Hours"
+msgstr "Horário de funcionamento da loja"
+
+#: inc/customizer/settings/agency.php:236
+msgid "Store Owner Contact Form Visibility"
+msgstr "Visibilidade do formulário de contacto do proprietário da loja"
+
+#: inc/customizer/settings/listings.php:330
+msgid "Store/Owner Widget Email (Deprecated)"
+msgstr "E-mail do widget da loja/proprietário (Obsoleto)"
+
+#: inc/customizer/settings/listings.php:348
+msgid "Store/Owner Widget Rating"
+msgstr "Avaliação do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:294
+msgid "Store/Owner Widget Title"
+msgstr "Título do widget da loja/proprietário"
+
+#: inc/customizer/settings/listings.php:312
+msgid "Store/Owner Widget What's App (Deprecated)"
+msgstr "WhatsApp do widget da loja/proprietário (Obsoleto)"
+
+#: inc/helper.php:185 inc/customizer/settings/footer.php:48
+#: inc/customizer/settings/listings.php:52
+msgid "Style 1"
+msgstr "Estilo 1"
+
+#: inc/customizer/settings/listings.php:53
+msgid "Style 2"
+msgstr "Estilo 2"
+
+#: classified-listing/listing-form/category.php:84
+msgid "Sub Category"
+msgstr "Subcategoria"
+
+#: inc/customizer/settings/color.php:224
+msgid "Sub Menu Font Color"
+msgstr "Cor da fonte do submenu"
+
+#: inc/customizer/typography/typography-customizer.php:654
+msgid "Sub Menu Font Size"
+msgstr "Tamanho da fonte do submenu"
+
+#: inc/customizer/typography/typography-customizer.php:673
+msgid "Sub Menu Line Height"
+msgstr "Altura da linha do submenu"
+
+#: inc/customizer/typography/typography-customizer.php:636
+msgid "Submenu"
+msgstr "Submenu"
+
+#: classified-listing/listing-form/form-builder.php:35
+#: classified-listing/custom/listing-heading.php:207
+msgid "Submit"
+msgstr "Enviar"
+
+#: classified-listing/single-rtcl_listing-reviews.php:83
+msgid "Submit Now"
+msgstr "Enviar agora"
+
+#: classified-listing/listing-form/form.php:31
+msgid "Submit Property"
+msgstr "Enviar propriedade"
+
+#: classified-listing/custom/functions.php:752
+msgid ""
+"Suggestion to the search algorithm that the results be sorted by one of the "
+"these modes"
+msgstr "Sugestão ao algoritmo de pesquisa para que os resultados sejam ordenados por um destes modos"
+
+#: inc/helper.php:468
+msgid "T"
+msgstr "T"
+
+#: template-parts/content-single.php:106
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: inc/lib/updater/theme-updater.php:35 inc/lib/updater/lc-helper.php:48
+#: inc/lib/updater/lc-helper.php:49 inc/lib/updater/lc-helper.php:75
+msgid "Theme License"
+msgstr "Licença do tema"
+
+#: classified-listing/single-rtcl_listing-reviews.php:56
+msgid "There are no reviews yet."
+msgstr "Ainda não há avaliações."
+
+#: classified-listing/custom/functions.php:1014
+msgid ""
+"This image size is being used at the agency detail page and where agency "
+"link is given."
+msgstr "Este tamanho de imagem está a ser usado na página de detalhes da agência e onde o link da agência é fornecido."
+
+#: inc/customizer/settings/newsletter.php:83
+msgid "This is the description for the Media Control"
+msgstr "Esta é a descrição para o controlo de média"
+
+#: inc/customizer/settings/general.php:247
+msgid "This option not work for administrator users."
+msgstr "Esta opção não funciona para utilizadores administradores."
+
+#: inc/customizer/settings/listings.php:555
+#: inc/customizer/settings/listings.php:573
+msgid "This settings for listing map search & banner search widget"
+msgstr "Estas configurações para a pesquisa no mapa de anúncios e widget de pesquisa do banner"
+
+#: classified-listing/listing-form/information.php:40
+#: classified-listing/listing-form/information.php:169
+#: classified-listing/listing-form/information.php:220
+msgid "Title"
+msgstr "Título"
+
+#: classified-listing/store/custom/store-info.php:88
+msgid "Today's Opening Hour:"
+msgstr "Horário de funcionamento de hoje:"
+
+#: inc/customizer/settings/single-post-layout.php:85
+#: inc/customizer/settings/listing-archive-layout.php:85
+#: inc/customizer/settings/agent-single-layout.php:85
+#: inc/customizer/settings/agent-archive-layout.php:85
+#: inc/customizer/settings/blog-layout.php:85
+#: inc/customizer/settings/error-layout.php:41
+#: inc/customizer/settings/header.php:79
+#: inc/customizer/settings/store-archive-layout.php:85
+#: inc/customizer/settings/listing-single-layout.php:42
+#: inc/customizer/settings/store-single-layout.php:85
+#: inc/customizer/settings/page-layout.php:85
+msgid "Top Bar"
+msgstr "Barra superior"
+
+#: inc/customizer/settings/color.php:155
+msgid "Topbar Background"
+msgstr "Fundo da barra superior"
+
+#: inc/customizer/settings/color.php:183
+msgid "Topbar Icon Color"
+msgstr "Cor do ícone da barra superior"
+
+#: inc/customizer/settings/color.php:169
+msgid "Topbar Text Color"
+msgstr "Cor do texto da barra superior"
+
+#: classified-listing/custom/functions.php:383
+msgid "total"
+msgstr "total"
+
+#: inc/clproperty-mortgage-calculator.php:175
+msgid "Total Interest"
+msgstr "Juros totais"
+
+#: inc/clproperty-mortgage-calculator.php:179
+msgid "Total Payment"
+msgstr "Pagamento total"
+
+#. %s: view count number.
+#: classified-listing/custom/functions.php:1537
+#: classified-listing/store/custom/store-info.php:74
+#, php-format
+msgid "Total Views: %s"
+msgstr "Visualizações totais: %s"
+
+#: inc/customizer/settings/header.php:126
+msgid "Transparent Background Color"
+msgstr "Cor de fundo transparente"
+
+#: inc/customizer/settings/single-post-layout.php:141
+#: inc/customizer/settings/listing-archive-layout.php:141
+#: inc/customizer/settings/agent-single-layout.php:120
+#: inc/customizer/settings/agent-archive-layout.php:121
+#: inc/customizer/settings/blog-layout.php:144
+#: inc/customizer/settings/error-layout.php:94
+#: inc/customizer/settings/header.php:110
+#: inc/customizer/settings/store-archive-layout.php:140
+#: inc/customizer/settings/listing-single-layout.php:101
+#: inc/customizer/settings/store-single-layout.php:120
+#: inc/customizer/settings/page-layout.php:144
+msgid "Transparent Header"
+msgstr "Cabeçalho transparente"
+
+#: inc/customizer/settings/color.php:254
+msgid "Transparent Menu Color"
+msgstr "Cor do menu transparente"
+
+#: inc/customizer/settings/color.php:269
+msgid "Transparent Menu Hover Color"
+msgstr "Cor hover do menu transparente"
+
+#: inc/customizer/settings/color.php:296
+msgid "Transparent Menu Icon  Color"
+msgstr "Cor do ícone do menu transparente"
+
+#: inc/customizer/settings/contact-info.php:169
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/typography/typography-customizer.php:40
+msgid "Typography"
+msgstr "Tipografia"
+
+#: inc/lib/updater/theme-updater.php:43
+msgid "unlimited"
+msgstr "ilimitado"
+
+#: classified-listing/custom/functions.php:1146
+msgid "Unlimited free ads for membership"
+msgstr "Anúncios gratuitos ilimitados para subscritores"
+
+#: classified-listing/listing-form/form-builder.php:33
+msgid "Update"
+msgstr "Atualizar"
+
+#: classified-listing/custom/functions.php:1190
+msgid "Update Account"
+msgstr "Atualizar conta"
+
+#: classified-listing/custom/functions.php:194
+msgid "Update Agency"
+msgstr "Atualizar agência"
+
+#: classified-listing/listing-form/form.php:29
+msgid "Update Property"
+msgstr "Atualizar propriedade"
+
+#: inc/lib/updater/theme-updater.php:57
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr "A atualização deste tema fará perder todas as personalizações. 'Cancelar' para parar, 'OK' para atualizar."
+
+#: classified-listing/claim/claim-popup-form.php:64
+msgid "Upload File"
+msgstr "Carregar ficheiro"
+
+#: template-parts/content-alt.php:65
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ", "
+
+#: classified-listing/global/form-login-old.php:75
+msgid "Username"
+msgstr "Nome de utilizador"
+
+#: classified-listing/global/form-login-old.php:81
+msgid "Username cannot be changed."
+msgstr "O nome de utilizador não pode ser alterado."
+
+#: classified-listing/global/form-login-old.php:25
+msgid "Username or E-mail"
+msgstr "Nome de utilizador ou e-mail"
+
+#: classified-listing/checkout/membership-promotions.php:48
+msgid "Validation Duration:"
+msgstr "Duração da validação:"
+
+#: classified-listing/checkout/membership-promotions.php:26
+msgid "Validation Duration<small>(# Days)</small>"
+msgstr "Duração da validação<small>(# Dias)</small>"
+
+#: classified-listing/single-rtcl_listing-reviews.php:104
+msgid "Very poor"
+msgstr "Muito fraco"
+
+#: classified-listing/custom/functions.php:195
+msgid "View Agency"
+msgstr "Ver agência"
+
+#: classified-listing/custom/functions.php:1543
+#: classified-listing/store/custom/store-info.php:80
+msgid "View: "
+msgstr "Visualizações: "
+
+#. %s: view count.
+#: classified-listing/custom/listing-heading.php:86
+#, php-format
+msgid "View: <span>%s</span>"
+msgid_plural "Views: <span>%s</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classified-listing/custom/functions.php:1543
+#: classified-listing/store/custom/store-info.php:80
+msgid "Views: "
+msgstr "Visualizações: "
+
+#: classified-listing/custom/listing-content-info.php:121
+msgid "Visit Website"
+msgstr "Visitar site"
+
+#: inc/customizer/settings/listings.php:141
+msgid "WalkScore API Key"
+msgstr "Chave API WalkScore"
+
+#: inc/customizer/settings/listings.php:122
+msgid "WalkScore Title"
+msgstr "Título WalkScore"
+
+#: inc/customizer/settings/listings.php:106
+msgid "WalkScore Visibility"
+msgstr "Visibilidade WalkScore"
+
+#: classified-listing/content-single-agent.php:117
+#: classified-listing/listing/author-content.php:90
+#: inc/customizer/settings/contact-info.php:85
+msgid "Website"
+msgstr "Site"
+
+#: classified-listing/store/custom/store-info.php:65
+msgid "Website: "
+msgstr "Site: "
+
+#: classified-listing/custom/functions.php:379
+msgid "week"
+msgstr "semana"
+
+#: classified-listing/custom/listing-search-banner.php:116
+msgid "What are you looking for!"
+msgstr "O que está à procura!"
+
+#: inc/general.php:454 classified-listing/custom/listing-search-widget.php:45
+msgid "What are you looking for?"
+msgstr "O que está à procura?"
+
+#: classified-listing/content-single-agent.php:110
+#: classified-listing/listing/author-content.php:77
+msgid "What's App"
+msgstr "WhatsApp"
+
+#: template-parts/related-posts.php:44
+msgid "What's New Trending"
+msgstr "Novas tendências"
+
+#: inc/lib/updater/lc-helper.php:133
+msgid "Where's my license key?"
+msgstr "Onde está a minha chave de licença?"
+
+#: classified-listing/custom/functions.php:1010
+msgid "Width"
+msgstr "Largura"
+
+#. 1: first result 2: last result 3: total results
+#: classified-listing/listing/loop/result-count.php:27
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d Listing"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d Listings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/helper.php:159 inc/general.php:328
+msgid "WooCommerce Archive Sidebar"
+msgstr "Barra lateral do arquivo WooCommerce"
+
+#: inc/customizer/customizer.php:313
+msgid "WooCommerce Common"
+msgstr "WooCommerce comum"
+
+#: inc/helper.php:160 inc/general.php:339
+msgid "WooCommerce Single Sidebar"
+msgstr "Barra lateral individual WooCommerce"
+
+#: classified-listing/claim/claim-popup-form.php:53
+msgid "Write your claim here"
+msgstr "Escreva a sua reclamação aqui"
+
+#: classified-listing/custom/functions.php:732
+msgid "Yelp API Key"
+msgstr "Chave API Yelp"
+
+#: classified-listing/listing-form/yelp-category.php:21
+#: classified-listing/custom/yelp-review.php:32
+msgid "Yelp Nearby Places"
+msgstr "Locais Yelp próximos"
+
+#: classified-listing/custom/functions.php:723
+msgid "Yelp Settings"
+msgstr "Configurações Yelp"
+
+#. 1: number of active sites, 2: total allowed sites
+#: inc/lib/updater/theme-updater.php:48
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Tem %1$s / %2$s sites ativados."
+
+#. %1$s: listing URL, %2$s: listing title.
+#: classified-listing/emails/listing-contact-email-to-owner.php:29
+#, php-format
+msgid ""
+"You have received a reply from your listing at <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: inc/customizer/settings/header.php:111
+msgid "You have to enable Banner or Slider in page to make it work properly"
+msgstr "Tem de ativar o Banner ou Slider na página para funcionar corretamente"
+
+#: inc/customizer/settings/listings.php:215
+msgid "You may change Features & Amenities title from here"
+msgstr "Pode alterar o título de características e comodidades aqui"
+
+#: inc/customizer/settings/listings.php:422
+msgid "You may change Listing type prefix text from here"
+msgstr "Pode alterar o texto do prefixo do tipo de anúncio aqui"
+
+#: inc/customizer/settings/listings.php:384
+msgid "You may change Listing widget title"
+msgstr "Pode alterar o título do widget de anúncio"
+
+#: inc/customizer/settings/listings.php:177
+msgid "You may change Overview title from here"
+msgstr "Pode alterar o título da visão geral aqui"
+
+#. %s: login page URL.
+#: classified-listing/single-rtcl_listing-reviews.php:91
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr "Tem de ter <a href=\"%s\">sessão iniciada</a> para publicar uma avaliação."
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Tem de ter sessão iniciada para finalizar a compra."
+
+#: template-parts/comments-callback.php:53
+msgid "Your comment is awaiting moderation."
+msgstr "O seu comentário aguarda moderação."
+
+#: classified-listing/custom/listing-heading.php:196
+msgid "Your Complaint"
+msgstr "A sua queixa"
+
+#: classified-listing/store/contact-form.php:27
+msgid "Your email"
+msgstr "O seu e-mail"
+
+#: classified-listing/store/contact-form.php:20
+msgid "Your name"
+msgstr "O seu nome"
+
+#: woocommerce/checkout/form-checkout.php:55
+msgid "Your order"
+msgstr "A sua encomenda"
+
+#: classified-listing/single-rtcl_listing-reviews.php:98
+msgid "Your rating"
+msgstr "A sua avaliação"
+
+#: classified-listing/single-rtcl_listing-reviews.php:108
+msgid "Your review"
+msgstr "A sua avaliação"
+
+#: classified-listing/listing/review.php:51
+msgid "Your review is awaiting moderation."
+msgstr "A sua avaliação aguarda moderação."
+
+#: inc/customizer/settings/contact-info.php:214
+msgid "Youtube"
+msgstr "YouTube"
+
+#: classified-listing/custom/functions.php:377
+msgid "yr"
+msgstr "ano"
+
+#: inc/clproperty-mortgage-calculator.php:156
+msgid "yrs"
+msgstr "anos"
